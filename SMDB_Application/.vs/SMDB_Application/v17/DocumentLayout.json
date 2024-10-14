@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\Skapar\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DA363576-4BA1-4977-9E8F-31321F09020E}|SMDB_Application\\SMDB_Application.csproj|c:\\users\\skapar\\documents\\github\\smdb_webapplication\\smdb_application\\smdb_application\\adminpanel\\css\\loginpagestyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{DA363576-4BA1-4977-9E8F-31321F09020E}|SMDB_Application\\SMDB_Application.csproj|solutionrelative:smdb_application\\adminpanel\\css\\loginpagestyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{DA363576-4BA1-4977-9E8F-31321F09020E}|SMDB_Application\\SMDB_Application.csproj|c:\\users\\skapar\\documents\\github\\smdb_webapplication\\smdb_application\\smdb_application\\adminpanel\\adminlogin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA363576-4BA1-4977-9E8F-31321F09020E}|SMDB_Application\\SMDB_Application.csproj|solutionrelative:smdb_application\\adminpanel\\adminlogin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA363576-4BA1-4977-9E8F-31321F09020E}|SMDB_Application\\SMDB_Application.csproj|c:\\users\\skapar\\documents\\github\\smdb_webapplication\\smdb_application\\smdb_application\\adminpanel\\adminlogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{DA363576-4BA1-4977-9E8F-31321F09020E}|SMDB_Application\\SMDB_Application.csproj|C:\\Users\\Skapar\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\smdb_application\\adminpanel\\adminlogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{DA363576-4BA1-4977-9E8F-31321F09020E}|SMDB_Application\\SMDB_Application.csproj|solutionrelative:smdb_application\\adminpanel\\adminlogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
@@ -23,14 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LoginPageStyle.css",
-              "DocumentMoniker": "C:\\Users\\Skapar\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\SMDB_Application\\AdminPanel\\CSS\\LoginPageStyle.css",
-              "RelativeDocumentMoniker": "SMDB_Application\\AdminPanel\\CSS\\LoginPageStyle.css",
-              "ToolTip": "C:\\Users\\Skapar\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\SMDB_Application\\AdminPanel\\CSS\\LoginPageStyle.css",
-              "RelativeToolTip": "SMDB_Application\\AdminPanel\\CSS\\LoginPageStyle.css",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAB0AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-14T06:28:27.04Z",
+              "Title": "AdminLogin.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Skapar\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\SMDB_Application\\AdminPanel\\AdminLogin.aspx.cs",
+              "RelativeDocumentMoniker": "SMDB_Application\\AdminPanel\\AdminLogin.aspx.cs",
+              "ToolTip": "C:\\Users\\Skapar\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\SMDB_Application\\AdminPanel\\AdminLogin.aspx.cs",
+              "RelativeToolTip": "SMDB_Application\\AdminPanel\\AdminLogin.aspx.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA1wCAAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T10:05:54.743Z",
               "EditorCaption": ""
             },
             {

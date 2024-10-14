@@ -13,8 +13,10 @@
             <div class="logoAlani">
                 <img src="Resimler/Logo300x300.png" />
             </div>
-            <h3>GİRİŞ</h3>
-            <label>SMDB'ye hoş geldiniz</label>
+            <h3>SMDB ADMİN PANEL</h3>
+            <asp:Panel ID="pnl_hata" runat="server" CssClass="hatakutu" Visible="false">
+                <asp:Label ID="lbl_hatametin" runat="server"></asp:Label>
+            </asp:Panel>
             <div class="anaPanel">
                 <div class="satir">
                     <label>MAİL İLE GİRİŞ YAPIN</label>
@@ -22,12 +24,13 @@
                 </div>
                 <div class="satir">
                     <label>PAROLA</label>
-                    <asp:TextBox ID="tb_sifre" runat="server" CssClass="metinKutu"></asp:TextBox>
+                    <asp:TextBox ID="tb_sifre" runat="server" CssClass="metinKutu" TextMode="Password"></asp:TextBox>
                 </div>
-                <div class="satir" style="text-align: center">
+                <div class="satir" style="text-align: center;">
                     <asp:LinkButton ID="lbtn_giris" runat="server" CssClass="girisButon" OnClick="lbtn_giris_Click">Giriş Yap</asp:LinkButton>
                 </div>
             </div>
+            <div style="clear:both"></div>
 
         </div>
     </form>

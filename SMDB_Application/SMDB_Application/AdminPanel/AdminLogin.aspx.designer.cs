@@ -24,6 +24,24 @@ namespace SMDB_Application.AdminPanel
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
+        /// pnl_hata control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel pnl_hata;
+
+        /// <summary>
+        /// lbl_hatametin control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbl_hatametin;
+
+        /// <summary>
         /// tb_username control.
         /// </summary>
         /// <remarks>

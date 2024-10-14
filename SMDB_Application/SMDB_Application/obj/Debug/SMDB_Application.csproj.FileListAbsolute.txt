@@ -116,3 +116,5 @@ C:\Users\Skapar\Documents\GitHub\SMDB_WebApplication\SMDB_Application\SMDB_Appli
 C:\Users\Skapar\Documents\GitHub\SMDB_WebApplication\SMDB_Application\SMDB_Application\obj\Debug\SMDB_App.BD76C8F9.Up2Date
 C:\Users\Skapar\Documents\GitHub\SMDB_WebApplication\SMDB_Application\SMDB_Application\obj\Debug\SMDB_Application.dll
 C:\Users\Skapar\Documents\GitHub\SMDB_WebApplication\SMDB_Application\SMDB_Application\obj\Debug\SMDB_Application.pdb
+C:\Users\Skapar\Documents\GitHub\SMDB_WebApplication\SMDB_Application\SMDB_Application\bin\DataAccessLayer.dll
+C:\Users\Skapar\Documents\GitHub\SMDB_WebApplication\SMDB_Application\SMDB_Application\bin\DataAccessLayer.pdb

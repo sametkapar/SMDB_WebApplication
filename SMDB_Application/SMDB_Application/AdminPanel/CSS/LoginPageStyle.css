@@ -9,14 +9,21 @@ body {
 }
 
 .main {
-    width: 400px;
+    width: 300px;
     margin: 270px auto;
     color: white;
-    border: 1px solid black;
+    border-top: 3px solid #483B35;
+    border-bottom: 3px solid #483B35;
+border-radius:3px;
 }
 
+    .main h3 {
+        text-align: center;
+        color: #A2724B;
+    }
+
 .logoAlani {
-    margin-left: 150px;
+    margin-left: 100px;
 }
 
     .logoAlani img {
@@ -26,7 +33,6 @@ body {
 .anaPanel {
     margin-top: 30px;
     background-color: #E2D5CC;
-
 }
 
     .anaPanel label {
@@ -34,13 +40,15 @@ body {
         margin-top: 5px;
         color: #AA754C;
         font-weight: 900;
+        text-shadow: 2px 2px 4px rgba(128,88,61,0.6);
     }
+
 .satir {
     margin-bottom: 20px;
 }
+
     .satir .metinKutu {
-        margin-top: 10px;
-        padding: 10px;
+        padding: 10px 0;
         background-color: white;
         border: none;
         width: 100%;
@@ -50,19 +58,41 @@ body {
         border: 1px solid #AA754C;
         color: #AA754C;
         font-weight: 400;
-
+        box-shadow: 10px 9px 12px -7px rgba(110,71,51,0.75);
+        -webkit-box-shadow: 10px 9px 12px -7px rgba(110,71,51,0.75);
+        -moz-box-shadow: 10px 9px 12px -7px rgba(110,71,51,0.75);
     }
 
-    .satir .metinKutu:focus{
-        border:1px solid white;
-        outline:none;
-    }
+
+        .satir .metinKutu:focus {
+            border: 1px solid white;
+            outline: none;
+        }
+
 .girisButon {
-    /* border: 1px solid #1999ff;*/
     color: white;
     text-decoration: none;
-    padding: 15px 100px;
+    padding: 10px 50px;
     border-radius: 3px;
-    background: rgb(6,191,255);
-    background: linear-gradient(90deg, rgba(6,191,255,1) 0%, rgba(44,116,255,1) 100%);
+    background: rgb(140,130,135);
+    background: linear-gradient(90deg, rgba(140,130,135,1) 0%, rgba(77,62,55,1) 35%, rgba(126,117,130,1) 100%);
+    text-align: center;
+    box-shadow: 10px 9px 12px -7px rgba(110,71,51,0.75);
+    -webkit-box-shadow: 10px 9px 12px -7px rgba(110,71,51,0.75);
+    -moz-box-shadow: 10px 9px 12px -7px rgba(110,71,51,0.75);
+}
+
+    .girisButon:hover {
+        background: rgb(40,38,39);
+        background: linear-gradient(90deg, rgba(40,38,39,1) 0%, rgba(77,62,55,1) 35%, rgba(40,39,41,1) 100%);
+    }
+
+.hatakutu {
+    padding: 10px;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    background-color: #632323;
+    border-radius: 7px;
+    margin: 5px 0px;
 }
