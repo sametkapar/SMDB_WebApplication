@@ -1,0 +1,68 @@
+﻿*, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Calibri;
+    background-color: #E2D5CC;
+}
+
+.main {
+    width: 400px;
+    margin: 270px auto;
+    color: white;
+    border: 1px solid black;
+}
+
+.logoAlani {
+    margin-left: 150px;
+}
+
+    .logoAlani img {
+        width: 100px;
+    }
+
+.anaPanel {
+    margin-top: 30px;
+    background-color: #E2D5CC;
+
+}
+
+    .anaPanel label {
+        display: block;
+        margin-top: 5px;
+        color: #AA754C;
+        font-weight: 900;
+    }
+.satir {
+    margin-bottom: 20px;
+}
+    .satir .metinKutu {
+        margin-top: 10px;
+        padding: 10px;
+        background-color: white;
+        border: none;
+        width: 100%;
+        border-radius: 5px;
+        color: white;
+        font-size: 12pt;
+        border: 1px solid #AA754C;
+        color: #AA754C;
+        font-weight: 400;
+
+    }
+
+    .satir .metinKutu:focus{
+        border:1px solid white;
+        outline:none;
+    }
+.girisButon {
+    /* border: 1px solid #1999ff;*/
+    color: white;
+    text-decoration: none;
+    padding: 15px 100px;
+    border-radius: 3px;
+    background: rgb(6,191,255);
+    background: linear-gradient(90deg, rgba(6,191,255,1) 0%, rgba(44,116,255,1) 100%);
+}
