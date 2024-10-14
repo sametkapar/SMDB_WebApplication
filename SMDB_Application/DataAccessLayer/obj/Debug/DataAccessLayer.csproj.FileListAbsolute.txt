@@ -10,3 +10,9 @@ C:\Users\Skapar\Documents\GitHub\SMDB_WebApplication\SMDB_Application\DataAccess
 C:\Users\Skapar\Documents\GitHub\SMDB_WebApplication\SMDB_Application\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
 C:\Users\Skapar\Documents\GitHub\SMDB_WebApplication\SMDB_Application\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 C:\Users\Skapar\Documents\GitHub\SMDB_WebApplication\SMDB_Application\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\user\Documents\GitHub\SMDB_WebApplication\SMDB_Application\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\user\Documents\GitHub\SMDB_WebApplication\SMDB_Application\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\user\Documents\GitHub\SMDB_WebApplication\SMDB_Application\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\user\Documents\GitHub\SMDB_WebApplication\SMDB_Application\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\SMDB_WebApplication\SMDB_Application\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\user\Documents\GitHub\SMDB_WebApplication\SMDB_Application\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

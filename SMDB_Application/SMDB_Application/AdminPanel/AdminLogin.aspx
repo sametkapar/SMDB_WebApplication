@@ -19,7 +19,7 @@
             </asp:Panel>
             <div class="anaPanel">
                 <div class="satir">
-                    <label>MAİL İLE GİRİŞ YAPIN</label>
+                    <label>MAİL ADRESİ</label>
                     <asp:TextBox ID="tb_username" runat="server" CssClass="metinKutu"></asp:TextBox>
                 </div>
                 <div class="satir">

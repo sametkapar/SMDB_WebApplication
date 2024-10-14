@@ -31,7 +31,7 @@ namespace SMDB_Application.AdminPanel
                     else
                     {
                         pnl_hata.Visible = true;
-                        lbl_hatametin.Text = "Kullanıcı Bulunamadı";
+                        lbl_hatametin.Text = "Kullanıcı bulunamadı";
                     }
                 }
                 else
