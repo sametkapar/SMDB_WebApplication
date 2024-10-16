@@ -3,7 +3,7 @@
 }
 .katEkleBaslik{
     border:1px solid black;
-    padding:10px;
+    padding:20px;
     margin-top:5px;
 }
 .panelIci{
@@ -16,3 +16,7 @@
     .panelIci .satir {
         margin: 10px 0 5px 10px;
     }
+        .panelIci .satir label {
+            color: #8B4338;
+            font-weight: 900;
+        }
