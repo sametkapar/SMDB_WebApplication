@@ -20,11 +20,11 @@
             <div class="anaPanel">
                 <div class="satir">
                     <label>MAİL ADRESİ</label>
-                    <asp:TextBox ID="tb_username" runat="server" CssClass="metinKutu"></asp:TextBox>
+                    <asp:TextBox ID="tb_username" runat="server" CssClass="metinKutu" Text="sk@smdb.com"></asp:TextBox>
                 </div>
                 <div class="satir">
                     <label>PAROLA</label>
-                    <asp:TextBox ID="tb_sifre" runat="server" CssClass="metinKutu" TextMode="Password"></asp:TextBox>
+                    <asp:TextBox ID="tb_sifre" runat="server" CssClass="metinKutu" Text="1965"></asp:TextBox>
                 </div>
                 <div class="satir" style="text-align: center;">
                     <asp:LinkButton ID="lbtn_giris" runat="server" CssClass="girisButon" OnClick="lbtn_giris_Click">Giriş Yap</asp:LinkButton>

@@ -2,40 +2,83 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: Calibri;
     background-color: #E2D5CC;
     color: white;
 }
+
 .ustMenu {
     background-color: #d69971;
+    border-bottom: 1px solid black;
 }
+
+    .ustMenu h2 {
+        text-align: center;
+        color: #544338;
+        font-size: 25pt;
+        padding-top: 30px;
+    }
+
     .ustMenu .logoYeri {
         padding: 50px;
         float: left;
-        width: 150px;
-        background-color: #A9744C;
+        width: 75px;
+        background-color: #E2D5CC;
+        border-right: 1px solid black;
     }
-    .ustMenu .bilgiYeri{
-        float:right;
-        padding:0 25px;
+
+        .ustMenu .logoYeri img {
+            width: 75px;
+        }
+
+    .ustMenu .bilgiYeri {
+        float: right;
+        padding: 0 25px;
     }
+
         .ustMenu .bilgiYeri #lbl_kullanici {
             padding-right: 30px;
             float: right;
             padding: 10px 40px;
             color: black;
-            font-weight:900;
+            font-weight: 900;
         }
+
         .ustMenu .bilgiYeri .cikis_link {
             float: right;
             text-decoration: none;
             color: black;
-            background-color:#A9744C;
+            background-color: #A9744C;
             padding: 10px 40px;
             border-radius: 0px 200px 0px 200px;
             -webkit-border-radius: 0px 200px 0px 200px;
             -moz-border-radius: 0px 200px 0px 200px;
-            font-weight:500;
+            font-weight: 500;
         }
-  
+
+.solMenu {
+    background-color: #d69971;
+    width: 175px;
+    min-height: 900px;
+    float: left;
+    border-right: 1px solid black;
+}
+
+    .solMenu a {
+        padding: 15px 20px;
+        display: block;
+        color: black;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+        .solMenu a:hover {
+            border-bottom: 3px solid #A9744C;
+            border-top: 5px solid #A9744C;
+            background-color: #c98b5e;
+            border-radius: 0px 200px 0px 200px;
+            -webkit-border-radius: 0px 200px 0px 200px;
+            -moz-border-radius: 0px 200px 0px 200px;
+        }

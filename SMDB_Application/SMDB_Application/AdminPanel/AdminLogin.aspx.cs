@@ -26,7 +26,7 @@ namespace SMDB_Application.AdminPanel
                     if (y != null)
                     {
                         Session["GirisYapanYonetici"] = y;
-                        Response.Redirect("Default.aspx");
+                        Response.Redirect("AdminPanel.aspx");
                     }
                     else
                     {

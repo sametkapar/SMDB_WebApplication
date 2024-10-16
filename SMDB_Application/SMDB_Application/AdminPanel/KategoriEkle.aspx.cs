@@ -7,9 +7,14 @@ using System.Web.UI.WebControls;
 
 namespace SMDB_Application.AdminPanel
 {
-    public partial class Default : System.Web.UI.Page
+    public partial class KategoriEkle : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void lbtn_ekle_Click(object sender, EventArgs e)
         {
 
         }
