@@ -24,8 +24,8 @@
         </div>
         <div class="solMenu">
             <a href="AdminPanel.aspx">Anasayfa</a>
-            <a href="KategoriEkle.aspx">Kategoriler</a>
-            <a href="#">Kategori Ekle</a>
+            <a href="#">Kategoriler</a>
+            <a href="KategoriEkle.aspx">Kategori Ekle</a>
             <a href="#">Yöneticiler</a>
             <a href="#">Üyeler</a>
             <a href="#">Müzik/Albüm/Sanatçı</a>

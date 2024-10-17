@@ -19,7 +19,7 @@ namespace SMDB_Application.AdminPanel
             }
             else
             {
-                Response.Redirect("YoneticiGiris.aspx");
+                Response.Redirect("AdminLogin.aspx");
             }
         }
 

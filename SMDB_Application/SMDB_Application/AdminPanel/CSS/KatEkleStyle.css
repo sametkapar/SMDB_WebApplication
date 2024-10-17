@@ -1,22 +1,83 @@
-﻿.katEklePanel{
+﻿.katEklePanel {
+}
 
+.katEkleBaslik {
+    padding: 20px;
+    margin-top: 5px;
+    color: #544338;
+    font-size: 16pt;
+    border-bottom: 2px solid #544338;
 }
-.katEkleBaslik{
-    border:1px solid black;
-    padding:20px;
-    margin-top:5px;
+
+.panelIci {
+    padding: 10px;
+    height: 220px;
+    border-bottom: 2px solid #544338;
 }
-.panelIci{
-    border:1px solid black;
-    padding:10px;
-    margin-top:5px;
-    height:250px;
-     
-}
+
     .panelIci .satir {
-        margin: 10px 0 5px 10px;
+        margin: 5px 0 5px 25px;
     }
+
         .panelIci .satir label {
             color: #8B4338;
             font-weight: 900;
+            margin: 20px;
         }
+
+.metinKutu {
+    margin: 20px;
+    padding: 10px 0;
+    background-color: #6b625c;
+    color: #E2D5CC;
+    width: 50%;
+    border: 2px solid #E2D5CC;
+}
+
+    .metinKutu:focus {
+        border: 2px solid #6b625c;
+        outline: none;
+    }
+
+    .metinKutu::placeholder {
+        color: #E2D5CC
+    }
+
+.panelIci .satir .katEkleCheck {
+    margin: 20px;
+}
+
+.panelIci .satir .katEkleButon {
+    text-decoration: none;
+    background-color: #A9744C;
+    color: black;
+    margin: 20px;
+    padding: 10px 20px;
+    border-bottom: 3px solid #A9744C;
+    border-top: 5px solid #A9744C;
+    border-radius: 0px 200px 0px 200px;
+    -webkit-border-radius: 0px 200px 0px 200px;
+    -moz-border-radius: 0px 200px 0px 200px;
+}
+
+    .panelIci .satir .katEkleButon:hover {
+        border-bottom: 3px solid #544338;
+        border-top: 5px solid #544338;
+        border-radius: 0px 200px 0px 200px;
+        -webkit-border-radius: 0px 200px 0px 200px;
+        -moz-border-radius: 0px 200px 0px 200px;
+    }
+.basarisiz {
+    background-color: #632323;
+    margin-top: 20px;
+    text-align:center; 
+    font-size:16pt;
+}
+
+.basarili {
+    margin-top: 20px;
+    color: black;
+    background-color: #01b219;
+    text-align: center;
+    font-size: 16pt;
+}

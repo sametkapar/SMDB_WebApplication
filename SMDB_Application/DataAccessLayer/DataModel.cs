@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -16,6 +17,9 @@ namespace DataAccessLayer
             con = new SqlConnection(ConnectionStrings.ConStr);
             cmd = con.CreateCommand();
         }
+        #region Yönetici Metotları
+
+
         public Yonetici YoneticiGiris(string mail, string sifre)
         {
             cmd.CommandText = "SELECT Y.ID, Y.YoneticiTur_ID, YT.Isim, Y.Isim, Y.Soyisim, Y.Mail, Y.KullaniciAdi, Y.Sifre, Y.AktifMi FROM Yoneticiler AS Y JOIN YoneticiTurleri AS YT ON Y.YoneticiTur_ID = YT.ID WHERE Y.Mail = @mail AND Y.Sifre = @sifre";
@@ -25,7 +29,7 @@ namespace DataAccessLayer
             con.Open();
             SqlDataReader reader = cmd.ExecuteReader();
             Yonetici y = null;
-            while (reader.Read()) 
+            while (reader.Read())
             {
                 y = new Yonetici();
                 y.ID = reader.GetInt32(0);
@@ -41,5 +45,36 @@ namespace DataAccessLayer
             con.Close();
             return y;
         }
+        #endregion
+
+        #region Kategori Metotları
+
+        public bool KategoriEkle(Kategori kat)
+        {
+            try
+            {
+                cmd.CommandText = "INSERT INTO Kategori (Isim, Durum) VALUES(@isim,@durum)";
+                cmd.Parameters.Clear();
+                cmd.Parameters.AddWithValue("@isim", kat.Isim);
+                cmd.Parameters.AddWithValue("@durum", kat.Durum);
+                con.Open();
+                cmd.ExecuteNonQuery();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+            finally
+            {
+                con.Close();
+            }
+        }
+
+
+
+
+        #endregion
+
     }
 }

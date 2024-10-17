@@ -14,11 +14,18 @@
                 <asp:TextBox ID="tb_isim" runat="server" CssClass="metinKutu" placeholder="Kategori Adı Giriniz"></asp:TextBox>
             </div>
             <div class="satir">
-                <asp:CheckBox ID="cb_durum" runat="server" CssClass="katEkleCheck" Text="Kategori Aktif Mi?"/>
+                <asp:CheckBox ID="cb_durum" runat="server" CssClass="katEkleCheck" Text="Kategori Aktif Mi?" />
             </div>
+            <br />
             <div class="satir">
-                <asp:LinkButton ID="lbtn_ekle" runat="server" OnClick="lbtn_ekle_Click" CssClass="katEkleButon">Kategorli Ekle</asp:LinkButton>
-                <div style="clear:both"></div>
+                <asp:LinkButton ID="lbtn_ekle" runat="server" OnClick="lbtn_ekle_Click" CssClass="katEkleButon">Kategori Ekle</asp:LinkButton>
+                <asp:Panel ID="pnl_basarili" runat="server" CssClass="panel basarili" Visible="false">
+                    <span>Kategori Ekleme İşlemi Başarılı</span>
+                </asp:Panel>
+                <asp:Panel ID="pnl_basarisiz" runat="server" CssClass="panel basarisiz" Visible="false">
+                    <asp:Label ID="lbl_mesaj" runat="server"></asp:Label>
+                </asp:Panel>
+                <div style="clear: both"></div>
             </div>
         </div>
     </div>
