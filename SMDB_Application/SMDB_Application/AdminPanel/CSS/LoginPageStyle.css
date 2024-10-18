@@ -5,7 +5,7 @@
 
 body {
     font-family: Calibri;
-    background-color: #E2D5CC;
+    background-color: #73739b
 }
 
 .main {
@@ -19,7 +19,7 @@ body {
 
     .main h3 {
         text-align: center;
-        color: #A2724B;
+        color: #d3d3ff;
     }
 
 .logoAlani {
@@ -32,13 +32,13 @@ body {
 
 .anaPanel {
     margin-top: 30px;
-    background-color: #E2D5CC;
+    background-color: #73739b;
 }
 
     .anaPanel label {
         display: block;
         margin-top: 5px;
-        color: #AA754C;
+        color: #d3d3ff;
         font-weight: 900;
         text-shadow: 2px 2px 4px rgba(128,88,61,0.6);
     }
@@ -55,8 +55,8 @@ body {
         border-radius: 5px;
         color: white;
         font-size: 12pt;
-        border: 1px solid #AA754C;
-        color: #AA754C;
+        border: 1px solid #7777ef;
+        color: #000039;
         font-weight: 400;
         box-shadow: 10px 9px 12px -7px rgba(110,71,51,0.75);
         -webkit-box-shadow: 10px 9px 12px -7px rgba(110,71,51,0.75);

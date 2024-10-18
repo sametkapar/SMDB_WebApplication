@@ -4,15 +4,15 @@
 .katEkleBaslik {
     padding: 20px;
     margin-top: 5px;
-    color: #544338;
+    color: #000039;
     font-size: 16pt;
-    border-bottom: 2px solid #544338;
+    border-bottom: 2px solid #000039;
 }
 
 .panelIci {
     padding: 10px;
     height: 220px;
-    border-bottom: 2px solid #544338;
+    border-bottom: 2px solid #000039;
 }
 
     .panelIci .satir {
@@ -20,7 +20,7 @@
     }
 
         .panelIci .satir label {
-            color: #8B4338;
+            color: #000039;
             font-weight: 900;
             margin: 20px;
         }
@@ -40,7 +40,7 @@
     }
 
     .metinKutu::placeholder {
-        color: #E2D5CC
+        color: #D3D3F9
     }
 
 .panelIci .satir .katEkleCheck {
@@ -49,20 +49,20 @@
 
 .panelIci .satir .katEkleButon {
     text-decoration: none;
-    background-color: #A9744C;
-    color: black;
+    background-color: #000039;
+    color: #D3D3F9;
     margin: 20px;
     padding: 10px 20px;
-    border-bottom: 3px solid #A9744C;
-    border-top: 5px solid #A9744C;
+    border-bottom: 3px solid #000039;
+    border-top: 5px solid #000039;
     border-radius: 0px 200px 0px 200px;
     -webkit-border-radius: 0px 200px 0px 200px;
     -moz-border-radius: 0px 200px 0px 200px;
 }
 
     .panelIci .satir .katEkleButon:hover {
-        border-bottom: 3px solid #544338;
-        border-top: 5px solid #544338;
+        border-bottom: 3px solid #7BAFDE;
+        border-top: 5px solid #7BAFDE;
         border-radius: 0px 200px 0px 200px;
         -webkit-border-radius: 0px 200px 0px 200px;
         -moz-border-radius: 0px 200px 0px 200px;
