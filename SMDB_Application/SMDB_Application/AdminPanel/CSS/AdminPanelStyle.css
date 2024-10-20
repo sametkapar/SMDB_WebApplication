@@ -5,18 +5,18 @@
 
 body {
     font-family: Calibri;
-    background-color: #7BAFDE;
+    background-color: #DEEFE7;
     color: white;
 }
 
 .ustMenu {
-    background-color: #ffffff;
+    background-color: #ccddd5;
     border-bottom: 1px solid black;
 }
 
     .ustMenu h2 {
         text-align: center;
-        color: #000039;
+        color: #002333;
         font-size: 25pt;
         padding-top: 30px;
     }
@@ -25,8 +25,8 @@ body {
         padding: 50px;
         float: left;
         width: 75px;
-        background-color: #E2D5CC;
-        border-right: 1px solid black;
+
+
     }
 
         .ustMenu .logoYeri img {
@@ -50,49 +50,48 @@ body {
             float: right;
             text-decoration: none;
             color: white;
-            background-color: #000039;
+            background-color: #024554;
             padding: 10px 40px;
-            border-bottom: 3px solid #000039;
-            border-top: 5px solid #000039;
-            border-radius: 0px 200px 0px 200px;
-            -webkit-border-radius: 0px 200px 0px 200px;
-            -moz-border-radius: 0px 200px 0px 200px;
+            border-bottom: 3px solid #8FC1B5;
+            border-top: 5px solid #8FC1B5;
+            border-radius: 25px;
             font-weight: 500;
         }
             .ustMenu .bilgiYeri .cikis_link:hover {
-                border-bottom: 3px solid #7BAFDE;
-                border-top: 5px solid #7BAFDE;
+                border-bottom: 3px solid #024554;
+                border-top: 5px solid #024554;
                 border-radius: 0px 200px 0px 200px;
                 -webkit-border-radius: 0px 200px 0px 200px;
                 -moz-border-radius: 0px 200px 0px 200px;
             }
 
-            .solMenu {
-                background-color: #000039;
-                width: 175px;
-                min-height: 900px;
-                float: left;
-                border-right: 1px solid black;
-            }
+.solMenu {
+    background-color: #002333;
+    width: 175px;
+    min-height: 900px;
+    float: left;
+    border-right: 1px solid black;
 
-                .solMenu a {
-                    padding: 15px 20px;
-                    display: block;
-                    color: #D3D3F9;
-                    text-decoration: none;
-                    font-weight: 500;
-                    border-bottom: 3px solid #7BAFDE;
-                    border-top: 5px solid #7BAFDE;
-                    border-radius: 0px 200px 0px 200px;
-                    -webkit-border-radius: 0px 200px 0px 200px;
-                    -moz-border-radius: 0px 200px 0px 200px;
-                }
+}
 
-                    .solMenu a:hover {
-                        border-bottom: 3px solid #7BAFDE;
-                        border-top: 5px solid #7BAFDE;
-                        background-color: #7BAFDE;
-                        border-radius: 0px 200px 0px 200px;
-                        -webkit-border-radius: 0px 200px 0px 200px;
-                        -moz-border-radius: 0px 200px 0px 200px;
-                    }
+    .solMenu a {
+        padding: 15px 13px;
+        background-color: #024554;
+        display: block;
+        margin: 5px;
+        color: #DEEFE7;
+        text-decoration: none;
+        font-weight: 500;
+        border-bottom: 3px solid #8FC1B5;
+        border-top: 5px solid #8FC1B5;
+        border-radius:25px;
+    }
+
+        .solMenu a:hover {
+            border-bottom: 3px solid #024554;
+            border-top: 5px solid #024554;
+            background-color: #024554;
+            border-radius: 0px 200px 0px 200px;
+            -webkit-border-radius: 0px 200px 0px 200px;
+            -moz-border-radius: 0px 200px 0px 200px;
+        }

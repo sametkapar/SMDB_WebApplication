@@ -25,6 +25,7 @@
                 <asp:Panel ID="pnl_basarisiz" runat="server" CssClass="panel basarisiz" Visible="false">
                     <asp:Label ID="lbl_mesaj" runat="server"></asp:Label>
                 </asp:Panel>
+
                 <div style="clear: both"></div>
             </div>
         </div>

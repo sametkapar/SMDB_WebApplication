@@ -13,7 +13,7 @@
     <form id="form1" runat="server">
         <div class="ustMenu">
             <div class="logoYeri">
-                <img src="Resimler/Logo300x300.png" />
+                <%--<img src="Resimler/Logo300x300.png" />--%>
             </div>
             <h2>SMDB Yönetici Paneli</h2>
             <div class="bilgiYeri">
