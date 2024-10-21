@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Skapar\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DA363576-4BA1-4977-9E8F-31321F09020E}|SMDB_Application\\SMDB_Application.csproj|c:\\users\\skapar\\documents\\github\\smdb_webapplication\\smdb_application\\smdb_application\\adminpanel\\kategorilistele.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA363576-4BA1-4977-9E8F-31321F09020E}|SMDB_Application\\SMDB_Application.csproj|solutionrelative:smdb_application\\adminpanel\\kategorilistele.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DA363576-4BA1-4977-9E8F-31321F09020E}|SMDB_Application\\SMDB_Application.csproj|c:\\users\\skapar\\documents\\github\\smdb_webapplication\\smdb_application\\smdb_application\\adminpanel\\kategoriduzenle.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{DA363576-4BA1-4977-9E8F-31321F09020E}|SMDB_Application\\SMDB_Application.csproj|solutionrelative:smdb_application\\adminpanel\\kategoriduzenle.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA363576-4BA1-4977-9E8F-31321F09020E}|SMDB_Application\\SMDB_Application.csproj|c:\\users\\skapar\\documents\\github\\smdb_webapplication\\smdb_application\\smdb_application\\adminpanel\\css\\g\u00F6vde.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{DA363576-4BA1-4977-9E8F-31321F09020E}|SMDB_Application\\SMDB_Application.csproj|solutionrelative:smdb_application\\adminpanel\\css\\g\u00F6vde.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{DA363576-4BA1-4977-9E8F-31321F09020E}|SMDB_Application\\SMDB_Application.csproj|c:\\users\\skapar\\documents\\github\\smdb_webapplication\\smdb_application\\smdb_application\\adminpanel\\kategoriduzenle.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA363576-4BA1-4977-9E8F-31321F09020E}|SMDB_Application\\SMDB_Application.csproj|solutionrelative:smdb_application\\adminpanel\\kategoriduzenle.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA363576-4BA1-4977-9E8F-31321F09020E}|SMDB_Application\\SMDB_Application.csproj|c:\\users\\skapar\\documents\\github\\smdb_webapplication\\smdb_application\\smdb_application\\adminpanel\\kategorilistele.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{DA363576-4BA1-4977-9E8F-31321F09020E}|SMDB_Application\\SMDB_Application.csproj|solutionrelative:smdb_application\\adminpanel\\kategorilistele.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA363576-4BA1-4977-9E8F-31321F09020E}|SMDB_Application\\SMDB_Application.csproj|c:\\users\\skapar\\documents\\github\\smdb_webapplication\\smdb_application\\smdb_application\\adminpanel\\adminlogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{DA363576-4BA1-4977-9E8F-31321F09020E}|SMDB_Application\\SMDB_Application.csproj|solutionrelative:smdb_application\\adminpanel\\adminlogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA363576-4BA1-4977-9E8F-31321F09020E}|SMDB_Application\\SMDB_Application.csproj|c:\\users\\skapar\\documents\\github\\smdb_webapplication\\smdb_application\\smdb_application\\adminpanel\\css\\kateklestyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{DA363576-4BA1-4977-9E8F-31321F09020E}|SMDB_Application\\SMDB_Application.csproj|solutionrelative:smdb_application\\adminpanel\\css\\kateklestyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA363576-4BA1-4977-9E8F-31321F09020E}|SMDB_Application\\SMDB_Application.csproj|c:\\users\\skapar\\documents\\github\\smdb_webapplication\\smdb_application\\smdb_application\\adminpanel\\adminpanelmaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{DA363576-4BA1-4977-9E8F-31321F09020E}|SMDB_Application\\SMDB_Application.csproj|solutionrelative:smdb_application\\adminpanel\\adminpanelmaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+      "AbsoluteMoniker": "D:0:0:{C84E86DD-28B8-4B67-870E-6B0130E9CD81}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\skapar\\documents\\github\\smdb_webapplication\\smdb_application\\dataaccesslayer\\datamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84E86DD-28B8-4B67-870E-6B0130E9CD81}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\datamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "KategoriListele.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Skapar\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\SMDB_Application\\AdminPanel\\KategoriListele.aspx.cs",
-              "RelativeDocumentMoniker": "SMDB_Application\\AdminPanel\\KategoriListele.aspx.cs",
-              "ToolTip": "C:\\Users\\Skapar\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\SMDB_Application\\AdminPanel\\KategoriListele.aspx.cs",
-              "RelativeToolTip": "SMDB_Application\\AdminPanel\\KategoriListele.aspx.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAVAAAA",
+              "DocumentIndex": 2,
+              "Title": "DataModel.cs",
+              "DocumentMoniker": "C:\\Users\\Skapar\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\DataAccessLayer\\DataModel.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\DataModel.cs",
+              "ToolTip": "C:\\Users\\Skapar\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\DataAccessLayer\\DataModel.cs",
+              "RelativeToolTip": "DataAccessLayer\\DataModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T08:48:01.105Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AdminLogin.aspx",
-              "DocumentMoniker": "C:\\Users\\Skapar\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\SMDB_Application\\AdminPanel\\AdminLogin.aspx",
-              "RelativeDocumentMoniker": "SMDB_Application\\AdminPanel\\AdminLogin.aspx",
-              "ToolTip": "C:\\Users\\Skapar\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\SMDB_Application\\AdminPanel\\AdminLogin.aspx",
-              "RelativeToolTip": "SMDB_Application\\AdminPanel\\AdminLogin.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-21T08:38:30.739Z",
+              "WhenOpened": "2024-10-21T11:40:18.227Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "G\u00F6vde.css",
-              "DocumentMoniker": "C:\\Users\\Skapar\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\SMDB_Application\\AdminPanel\\CSS\\G\u00F6vde.css",
-              "RelativeDocumentMoniker": "SMDB_Application\\AdminPanel\\CSS\\G\u00F6vde.css",
-              "ToolTip": "C:\\Users\\Skapar\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\SMDB_Application\\AdminPanel\\CSS\\G\u00F6vde.css",
-              "RelativeToolTip": "SMDB_Application\\AdminPanel\\CSS\\G\u00F6vde.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-21T08:33:23.983Z",
+              "Title": "KategoriDuzenle.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Skapar\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\SMDB_Application\\AdminPanel\\KategoriDuzenle.aspx.cs",
+              "RelativeDocumentMoniker": "SMDB_Application\\AdminPanel\\KategoriDuzenle.aspx.cs",
+              "ToolTip": "C:\\Users\\Skapar\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\SMDB_Application\\AdminPanel\\KategoriDuzenle.aspx.cs",
+              "RelativeToolTip": "SMDB_Application\\AdminPanel\\KategoriDuzenle.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T11:40:16.961Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "KategoriListele.aspx",
-              "DocumentMoniker": "C:\\Users\\Skapar\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\SMDB_Application\\AdminPanel\\KategoriListele.aspx",
-              "RelativeDocumentMoniker": "SMDB_Application\\AdminPanel\\KategoriListele.aspx",
-              "ToolTip": "C:\\Users\\Skapar\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\SMDB_Application\\AdminPanel\\KategoriListele.aspx",
-              "RelativeToolTip": "SMDB_Application\\AdminPanel\\KategoriListele.aspx",
+              "DocumentIndex": 0,
+              "Title": "KategoriDuzenle.aspx",
+              "DocumentMoniker": "C:\\Users\\Skapar\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\SMDB_Application\\AdminPanel\\KategoriDuzenle.aspx",
+              "RelativeDocumentMoniker": "SMDB_Application\\AdminPanel\\KategoriDuzenle.aspx",
+              "ToolTip": "C:\\Users\\Skapar\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\SMDB_Application\\AdminPanel\\KategoriDuzenle.aspx",
+              "RelativeToolTip": "SMDB_Application\\AdminPanel\\KategoriDuzenle.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-21T08:31:35.127Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "KatEkleStyle.css",
-              "DocumentMoniker": "C:\\Users\\Skapar\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\SMDB_Application\\AdminPanel\\CSS\\KatEkleStyle.css",
-              "RelativeDocumentMoniker": "SMDB_Application\\AdminPanel\\CSS\\KatEkleStyle.css",
-              "ToolTip": "C:\\Users\\Skapar\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\SMDB_Application\\AdminPanel\\CSS\\KatEkleStyle.css",
-              "RelativeToolTip": "SMDB_Application\\AdminPanel\\CSS\\KatEkleStyle.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-21T08:22:32.521Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AdminPanelMaster.Master",
-              "DocumentMoniker": "C:\\Users\\Skapar\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\SMDB_Application\\AdminPanel\\AdminPanelMaster.Master",
-              "RelativeDocumentMoniker": "SMDB_Application\\AdminPanel\\AdminPanelMaster.Master",
-              "ToolTip": "C:\\Users\\Skapar\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\SMDB_Application\\AdminPanel\\AdminPanelMaster.Master",
-              "RelativeToolTip": "SMDB_Application\\AdminPanel\\AdminPanelMaster.Master",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-21T08:05:35.991Z",
+              "WhenOpened": "2024-10-21T11:40:14.634Z",
               "EditorCaption": ""
             }
           ]

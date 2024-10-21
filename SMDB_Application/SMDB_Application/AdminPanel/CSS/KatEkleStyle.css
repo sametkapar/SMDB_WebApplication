@@ -1,25 +1,26 @@
 ﻿.anaPanel {
-
 }
+
 .panelIci {
     border: 2px solid #000039;
-    padding:10px;
+    padding: 10px;
 }
+
     .panelIci .satir {
         margin: 5px 0 20px 0px;
     }
+
         .panelIci .satir label {
             color: #000039;
             font-weight: 900;
         }
+
 .panelBaslik {
     color: #000039;
     font-size: 16pt;
-
 }
 
 .panelIci .satir .metinKutu {
-
     padding: 10px 0;
     background-color: #002333;
     color: #DEEFE7;
@@ -31,14 +32,14 @@
     border: 2px solid #DEEFE7;
 }
 
-    .satir .metinKutu:hover {
-        border: 2px solid #002333;
-    }
+.satir .metinKutu:hover {
+    border: 2px solid #002333;
+}
 
-    .satir .metinKutu:focus {
-        border: 2px solid #DEEFE7;
-        outline: none;
-    }
+.satir .metinKutu:focus {
+    border: 2px solid #DEEFE7;
+    outline: none;
+}
 
 .metinKutu::placeholder {
     color: #DEEFE7
@@ -58,6 +59,7 @@
     border-top: 5px solid #8FC1B5;
     border-radius: 25px;
 }
+
     .panelIci .satir .EkleButon:hover {
         border-bottom: 3px solid #024554;
         border-top: 5px solid #024554;
@@ -106,4 +108,60 @@
         border-bottom: 1px solid white;
         border-left: 1px solid white;
         background-color: #393C44;
+    }
+
+.pavlov {
+    width: 100%;
+    border: 1px solid #002333;
+    border-left: none;
+    border-bottom: none;
+}
+
+    .pavlov tr th {
+        padding: 10px;
+        border-bottom: 2px solid #002333;
+        border-left: 1px solid #002333;
+        text-align: left;
+        color: #002333;
+    }
+
+    .pavlov tr td {
+        padding: 8px;
+        border-bottom: 2px solid #002333;
+        border-left: 1px solid #002333;
+        text-align: left;
+        color: #002333;
+    }
+
+.tablobuton {
+    padding: 5px;
+    text-decoration: none;
+    font-size: 10pt;
+    border-radius:4px;
+}
+
+
+.durum {
+    color: #002333;
+    background-color: #00BBC9;
+}
+    .durum:hover {
+        background: rgb(0,187,201);
+        background: linear-gradient(90deg, rgba(0,187,201,1) 0%, rgba(255,255,255,1) 100%);
+    }
+.sil {
+    color: #002333;
+    background: #BD2A2E
+}
+.sil:hover {
+    background: rgb(189,42,46);
+    background: linear-gradient(90deg, rgba(189,42,46,1) 0%, rgba(255,255,255,1) 100%);
+}
+.düzenle {
+    color: #002333;
+    background-color: #DAFDBA;
+}
+    .düzenle:hover {
+        background: rgb(218,253,186);
+        background: linear-gradient(90deg, rgba(218,253,186,1) 0%, rgba(255,255,255,1) 100%);
     }

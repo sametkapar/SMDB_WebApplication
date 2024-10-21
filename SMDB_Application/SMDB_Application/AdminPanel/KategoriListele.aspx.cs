@@ -17,6 +17,21 @@ namespace SMDB_Application.AdminPanel
         {
             Doldur();
         }
+       
+
+        protected void lv_kategoriler_ItemCommand(object sender, ListViewCommandEventArgs e)
+        {
+            int id = Convert.ToInt32(e.CommandArgument);
+                if (e.CommandName == "durum")
+            {
+                dm.KategoriDurumDegistir(id);
+            }
+                if(e.CommandName =="sil")
+            {
+                dm.KategoriSil(id);
+            }
+            Doldur();
+        }
         void Doldur()
         {
             lv_kategoriler.DataSource = dm.KategorileriGetir();
