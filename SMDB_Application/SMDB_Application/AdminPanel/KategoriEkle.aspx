@@ -4,11 +4,17 @@
     <link href="CSS/KatEkleStyle.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="katEklePanel">
-        <div class="katEkleBaslik">
+    <div class="anaPanel">
+        <div class="panelBaslik">
             <h3>Kategori Ekle</h3>
         </div>
         <div class="panelIci">
+            <asp:Panel ID="pnl_basarili" runat="server" CssClass="panel basarili" Visible="false">
+                <span style="color: white">Kategori Ekleme İşlemi Başarılı</span>
+            </asp:Panel>
+            <asp:Panel ID="pnl_basarisiz" runat="server" CssClass="panel basarisiz" Visible="false">
+                <asp:Label ID="lbl_mesaj" runat="server"></asp:Label>
+            </asp:Panel>
             <div class="satir">
                 <label>Kategori Adı</label><br />
                 <asp:TextBox ID="tb_isim" runat="server" CssClass="metinKutu" placeholder="Kategori Adı Giriniz"></asp:TextBox>
@@ -18,14 +24,7 @@
             </div>
             <br />
             <div class="satir">
-                <asp:LinkButton ID="lbtn_ekle" runat="server" OnClick="lbtn_ekle_Click" CssClass="katEkleButon">Kategori Ekle</asp:LinkButton>
-                <asp:Panel ID="pnl_basarili" runat="server" CssClass="panel basarili" Visible="false">
-                    <span>Kategori Ekleme İşlemi Başarılı</span>
-                </asp:Panel>
-                <asp:Panel ID="pnl_basarisiz" runat="server" CssClass="panel basarisiz" Visible="false">
-                    <asp:Label ID="lbl_mesaj" runat="server"></asp:Label>
-                </asp:Panel>
-
+                <asp:LinkButton ID="lbtn_ekle" runat="server" OnClick="lbtn_ekle_Click" CssClass="EkleButon">Kategori Ekle</asp:LinkButton>
                 <div style="clear: both"></div>
             </div>
         </div>

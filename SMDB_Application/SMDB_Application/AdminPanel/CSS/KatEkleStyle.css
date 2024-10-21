@@ -1,56 +1,54 @@
-﻿.katEklePanel {
-}
+﻿.anaPanel {
 
-.katEkleBaslik {
-    padding: 20px;
-    margin-top: 5px;
-    color: #000039;
-    font-size: 16pt;
-    border-bottom: 2px solid #000039;
 }
-
 .panelIci {
-    padding: 10px;
-    height: 220px;
-    border-bottom: 2px solid #000039;
+    border: 2px solid #000039;
+    padding:10px;
 }
-
     .panelIci .satir {
-        margin: 5px 0 5px 25px;
+        margin: 5px 0 20px 0px;
     }
-
         .panelIci .satir label {
             color: #000039;
             font-weight: 900;
-            margin: 20px;
         }
+.panelBaslik {
+    color: #000039;
+    font-size: 16pt;
 
-.metinKutu {
-    margin: 20px;
+}
+
+.panelIci .satir .metinKutu {
+
     padding: 10px 0;
     background-color: #002333;
     color: #DEEFE7;
-    width: 50%;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-radius: 2px;
     border: 2px solid #DEEFE7;
 }
-    .metinKutu:hover {
+
+    .satir .metinKutu:hover {
         border: 2px solid #002333;
     }
 
-    .metinKutu:focus {
+    .satir .metinKutu:focus {
         border: 2px solid #DEEFE7;
         outline: none;
     }
 
-    .metinKutu::placeholder {
-        color: #DEEFE7
-    }
+.metinKutu::placeholder {
+    color: #DEEFE7
+}
 
 .panelIci .satir .katEkleCheck {
     margin: 20px;
 }
 
-.panelIci .satir .katEkleButon {
+.panelIci .satir .EkleButon {
     text-decoration: none;
     background-color: #024554;
     color: #DEEFE7;
@@ -60,18 +58,15 @@
     border-top: 5px solid #8FC1B5;
     border-radius: 25px;
 }
-
-    .panelIci .satir .katEkleButon:hover {
+    .panelIci .satir .EkleButon:hover {
         border-bottom: 3px solid #024554;
         border-top: 5px solid #024554;
-        border-radius: 0px 200px 0px 200px;
-        -webkit-border-radius: 0px 200px 0px 200px;
-        -moz-border-radius: 0px 200px 0px 200px;
+        border-radius: 25px;
+        background: rgb(180,204,193);
+        background: linear-gradient(90deg, rgba(180,204,193,1) 7%, rgba(143,193,181,1) 21%, rgba(2,69,84,1) 100%);
     }
 
-
 .basarisiz {
-
     background-color: #720505;
     margin-top: 20px;
     text-align: center;
@@ -85,3 +80,30 @@
     text-align: center;
     font-size: 16pt;
 }
+
+.schrodinger {
+    width: 100%;
+    border: 1px solid white;
+    border-left: none;
+    border-bottom: none;
+}
+
+    .schrodinger tr th {
+        padding: 5px;
+        border-bottom: 2px solid white;
+        border-left: 1px solid white;
+        text-align: left;
+    }
+
+    .schrodinger tr td {
+        padding: 7px;
+        border-bottom: 1px solid white;
+        border-left: 1px solid white;
+    }
+
+    .schrodinger .alternate td {
+        padding: 7px;
+        border-bottom: 1px solid white;
+        border-left: 1px solid white;
+        background-color: #393C44;
+    }

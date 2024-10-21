@@ -70,9 +70,11 @@
     <Content Include="AdminPanel\AdminLogin.aspx" />
     <Content Include="AdminPanel\AdminPanel.aspx" />
     <Content Include="AdminPanel\CSS\AdminPanelStyle.css" />
+    <Content Include="AdminPanel\CSS\Gövde.css" />
     <Content Include="AdminPanel\CSS\KatEkleStyle.css" />
     <Content Include="AdminPanel\CSS\LoginPageStyle.css" />
     <Content Include="AdminPanel\KategoriEkle.aspx" />
+    <Content Include="AdminPanel\KategoriListele.aspx" />
     <Content Include="AdminPanel\Resimler\Logo300x300.png" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -104,6 +106,13 @@
     </Compile>
     <Compile Include="AdminPanel\KategoriEkle.aspx.designer.cs">
       <DependentUpon>KategoriEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanel\KategoriListele.aspx.cs">
+      <DependentUpon>KategoriListele.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPanel\KategoriListele.aspx.designer.cs">
+      <DependentUpon>KategoriListele.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

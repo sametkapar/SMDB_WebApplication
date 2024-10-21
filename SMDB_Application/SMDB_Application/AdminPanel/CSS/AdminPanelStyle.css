@@ -10,7 +10,8 @@ body {
 }
 
 .ustMenu {
-    background-color: #ccddd5;
+    background: rgb(0,35,51);
+    background: linear-gradient(90deg, rgba(0,35,51,1) 0%, rgba(222,239,231,1) 100%);
     border-bottom: 1px solid black;
 }
 
@@ -20,32 +21,24 @@ body {
         font-size: 25pt;
         padding-top: 30px;
     }
-
     .ustMenu .logoYeri {
         padding: 50px;
         float: left;
         width: 75px;
-
-
     }
-
         .ustMenu .logoYeri img {
             width: 75px;
         }
-
     .ustMenu .bilgiYeri {
         float: right;
         padding: 0 25px;
     }
-
         .ustMenu .bilgiYeri #lbl_kullanici {
-            padding-right: 30px;
             float: right;
             padding: 10px 40px;
             color: #000039;
             font-weight: 900;
         }
-
         .ustMenu .bilgiYeri .cikis_link {
             float: right;
             text-decoration: none;
@@ -60,18 +53,20 @@ body {
             .ustMenu .bilgiYeri .cikis_link:hover {
                 border-bottom: 3px solid #024554;
                 border-top: 5px solid #024554;
-                border-radius: 0px 200px 0px 200px;
-                -webkit-border-radius: 0px 200px 0px 200px;
-                -moz-border-radius: 0px 200px 0px 200px;
+                border-radius: 25px;
+                background: rgb(2,69,84);
+                background: linear-gradient(90deg, rgba(2,69,84,1) 0%, rgba(180,204,193,1) 78%, rgba(143,193,181,1) 93%);
             }
 
 .solMenu {
     background-color: #002333;
-    width: 175px;
+    width: 200px;
     min-height: 900px;
     float: left;
     border-right: 1px solid black;
-
+    box-shadow: 7px 1px 5px 0px rgba(0,35,51,0.5);
+    -webkit-box-shadow: 7px 1px 5px 0px rgba(0,35,51,0.5);
+    -moz-box-shadow: 7px 1px 5px 0px rgba(0,35,51,0.5);
 }
 
     .solMenu a {
@@ -90,8 +85,12 @@ body {
         .solMenu a:hover {
             border-bottom: 3px solid #024554;
             border-top: 5px solid #024554;
-            background-color: #024554;
-            border-radius: 0px 200px 0px 200px;
-            -webkit-border-radius: 0px 200px 0px 200px;
-            -moz-border-radius: 0px 200px 0px 200px;
+            background: rgb(2,69,84);
+            background: linear-gradient(90deg, rgba(2,69,84,1) 0%, rgba(180,204,193,1) 78%, rgba(143,193,181,1) 93%);
+            border-radius: 25px;
         }
+.mainPanel {
+    float: left;
+    width: 74%;
+    padding: 20px;
+}

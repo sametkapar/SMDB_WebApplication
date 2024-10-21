@@ -71,7 +71,37 @@ namespace DataAccessLayer
             }
         }
 
-
+        public List<Kategori> KategorileriGetir()
+        {
+            List<Kategori> kategoriler = new List<Kategori>();
+            try
+            {
+                cmd.CommandText = "SELECT ID, Isim, Durum FROM Kategori";
+                cmd.Parameters.Clear();
+                con.Open();
+                SqlDataReader reader = cmd.ExecuteReader();
+                Kategori k;
+                while (reader.Read()) 
+                {
+                    k= new Kategori();
+                    k.ID = reader.GetInt32(0);
+                    k.Isim = reader.GetString(1);
+                    k.Durum = reader.GetBoolean(2);
+                    k.DurumStr = reader.GetBoolean(0) ? "Aktif" : "Pasif";
+                    kategoriler.Add(k);
+                   
+                }
+                return kategoriler;
+            }
+            catch
+            {
+                return null;
+            }
+            finally
+            {
+                con.Close() ;
+            }
+        }
 
 
         #endregion

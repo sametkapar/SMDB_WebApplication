@@ -13,7 +13,6 @@
     <form id="form1" runat="server">
         <div class="ustMenu">
             <div class="logoYeri">
-                <%--<img src="Resimler/Logo300x300.png" />--%>
             </div>
             <h2>SMDB Yönetici Paneli</h2>
             <div class="bilgiYeri">
@@ -24,8 +23,8 @@
         </div>
         <div class="solMenu">
             <a href="AdminPanel.aspx">Anasayfa</a>
-            <a href="#">Kategoriler</a>
             <a href="KategoriEkle.aspx">Kategori Ekle</a>
+            <a href="KategoriListele.aspx">Kategoriler</a>
             <a href="#">Yöneticiler</a>
             <a href="#">Üyeler</a>
             <a href="#">Müzik/Albüm/Sanatçı</a>
