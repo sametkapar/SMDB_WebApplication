@@ -251,5 +251,45 @@ namespace DataAccessLayer
 
         #endregion
 
+        #region Üye Metotları
+
+        public List<Uyeler> UyeleriGetir()
+        {
+            List<Uyeler> uyeler = new List<Uyeler>();
+
+            try
+            {
+                cmd.CommandText = "SELECT ID, Isim, Soyisim, Mail, KullaniciAdi, Sifre, AktifMi, Durum FROM Kullanici";
+                cmd.Parameters.Clear();
+                con.Open();
+                SqlDataReader reader = cmd.ExecuteReader();
+                Uyeler u;
+                while (reader.Read())
+                {
+                    u = new Uyeler();
+                    u.ID = reader.GetInt32(0);
+                    u.Isim= reader.GetString(1);
+                    u.Soyisim= reader.GetString(2);
+                    u.Mail= reader.GetString(3);
+                    u.KullaniciAdi= reader.GetString(4);
+                    u.Sifre= reader.GetString(5);
+                    u.AktifMi=reader.GetBoolean(6);
+                    u.Durum=reader.GetBoolean(7);
+                    uyeler.Add(u);
+                }
+                return uyeler;
+            }
+            catch
+            {
+                return null;
+            }
+            finally
+            {
+                con.Close();
+            }
+        }
+
+        #endregion
+
     }
 }

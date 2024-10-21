@@ -134,6 +134,7 @@ CREATE TABLE Kullanici
 	KullaniciAdi nvarchar(50),
 	Sifre nvarchar(20),
 	AktifMi bit,
+	Durum bit,
 	CONSTRAINT pk_Kullanici PRIMARY KEY(ID)
 )
 GO

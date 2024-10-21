@@ -26,7 +26,7 @@
             <a href="KategoriEkle.aspx">Kategori Ekle</a>
             <a href="KategoriListele.aspx">Kategoriler</a>
             <a href="Yoneticiler.aspx">Yöneticiler</a>
-            <a href="#">Üyeler</a>
+            <a href="UyeListele.aspx">Üyeler</a>
             <a href="#">Müzik/Albüm/Sanatçı</a>
         </div>
         <div class="mainPanel">
