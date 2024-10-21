@@ -76,6 +76,7 @@
     <Content Include="AdminPanel\KategoriEkle.aspx" />
     <Content Include="AdminPanel\KategoriListele.aspx" />
     <Content Include="AdminPanel\Resimler\Logo300x300.png" />
+    <Content Include="AdminPanel\Yoneticiler.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -120,6 +121,13 @@
     </Compile>
     <Compile Include="AdminPanel\KategoriListele.aspx.designer.cs">
       <DependentUpon>KategoriListele.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanel\Yoneticiler.aspx.cs">
+      <DependentUpon>Yoneticiler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPanel\Yoneticiler.aspx.designer.cs">
+      <DependentUpon>Yoneticiler.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

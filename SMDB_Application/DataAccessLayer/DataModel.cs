@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.Design;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
@@ -45,6 +46,42 @@ namespace DataAccessLayer
             con.Close();
             return y;
         }
+        public List<Yonetici> YoneticiGetir()
+        {
+            List<Yonetici> Yoneticiler = new List<Yonetici>();
+            try
+            {
+                cmd.CommandText = "SELECT Y.ID, Y.YoneticiTur_ID, YT.Isim, Y.Isim, Y.Soyisim, Y.Mail, Y.KullaniciAdi, Y.Sifre, Y.AktifMi FROM Yoneticiler AS Y JOIN YoneticiTurleri AS YT ON Y.YoneticiTur_ID = YT.ID";
+                cmd.Parameters.Clear();
+                con.Open();
+                SqlDataReader reader = cmd.ExecuteReader();
+                Yonetici y;
+                while (reader.Read())
+                {
+                    y = new Yonetici();
+                    y.ID = reader.GetInt32(0);
+                    y.YoneticiTur_ID = reader.GetInt32(1);
+                    y.YoneticiTur = reader.GetString(2);
+                    y.Isim = reader.GetString(3);
+                    y.Soyisim = reader.GetString(4);
+                    y.Mail = reader.GetString(5);
+                    y.KullaniciAdi = reader.GetString(6);
+                    y.Sifre = reader.GetString(7);
+                    y.AktifMi = reader.GetBoolean(8);
+                    Yoneticiler.Add(y);
+                }
+                return Yoneticiler;
+            }
+            catch
+            {
+                return null;
+            }
+            finally
+            {
+                con.Close();
+            }
+        }
+
         #endregion
 
         #region Kategori Metotları
