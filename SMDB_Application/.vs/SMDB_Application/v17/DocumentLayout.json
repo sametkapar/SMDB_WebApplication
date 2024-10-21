@@ -1,14 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Skapar\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DA363576-4BA1-4977-9E8F-31321F09020E}|SMDB_Application\\SMDB_Application.csproj|c:\\users\\skapar\\documents\\github\\smdb_webapplication\\smdb_application\\smdb_application\\adminpanel\\yoneticiler.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DA363576-4BA1-4977-9E8F-31321F09020E}|SMDB_Application\\SMDB_Application.csproj|c:\\users\\user\\documents\\github\\smdb_webapplication\\smdb_application\\smdb_application\\adminpanel\\yoneticiler.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA363576-4BA1-4977-9E8F-31321F09020E}|SMDB_Application\\SMDB_Application.csproj|solutionrelative:smdb_application\\adminpanel\\yoneticiler.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA363576-4BA1-4977-9E8F-31321F09020E}|SMDB_Application\\SMDB_Application.csproj|c:\\users\\skapar\\documents\\github\\smdb_webapplication\\smdb_application\\smdb_application\\adminpanel\\yoneticiler.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{DA363576-4BA1-4977-9E8F-31321F09020E}|SMDB_Application\\SMDB_Application.csproj|C:\\Users\\user\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\smdb_application\\adminpanel\\yoneticiler.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{DA363576-4BA1-4977-9E8F-31321F09020E}|SMDB_Application\\SMDB_Application.csproj|solutionrelative:smdb_application\\adminpanel\\yoneticiler.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA363576-4BA1-4977-9E8F-31321F09020E}|SMDB_Application\\SMDB_Application.csproj|c:\\users\\user\\documents\\github\\smdb_webapplication\\smdb_application\\smdb_application\\adminpanel\\kategorilistele.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{DA363576-4BA1-4977-9E8F-31321F09020E}|SMDB_Application\\SMDB_Application.csproj|solutionrelative:smdb_application\\adminpanel\\kategorilistele.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84E86DD-28B8-4B67-870E-6B0130E9CD81}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\user\\documents\\github\\smdb_webapplication\\smdb_application\\dataaccesslayer\\datamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84E86DD-28B8-4B67-870E-6B0130E9CD81}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\datamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "KategoriListele.aspx",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\SMDB_Application\\AdminPanel\\KategoriListele.aspx",
+              "RelativeDocumentMoniker": "SMDB_Application\\AdminPanel\\KategoriListele.aspx",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\SMDB_Application\\AdminPanel\\KategoriListele.aspx",
+              "RelativeToolTip": "SMDB_Application\\AdminPanel\\KategoriListele.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-21T17:35:10.468Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Yoneticiler.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Skapar\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\SMDB_Application\\AdminPanel\\Yoneticiler.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\SMDB_Application\\AdminPanel\\Yoneticiler.aspx.cs",
               "RelativeDocumentMoniker": "SMDB_Application\\AdminPanel\\Yoneticiler.aspx.cs",
-              "ToolTip": "C:\\Users\\Skapar\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\SMDB_Application\\AdminPanel\\Yoneticiler.aspx.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\SMDB_Application\\AdminPanel\\Yoneticiler.aspx.cs",
               "RelativeToolTip": "SMDB_Application\\AdminPanel\\Yoneticiler.aspx.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAtwA0AAAASAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAMwCAAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T12:58:43.861Z",
+              "WhenOpened": "2024-10-21T17:14:14.631Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Yoneticiler.aspx",
-              "DocumentMoniker": "C:\\Users\\Skapar\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\SMDB_Application\\AdminPanel\\Yoneticiler.aspx",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\SMDB_Application\\AdminPanel\\Yoneticiler.aspx",
               "RelativeDocumentMoniker": "SMDB_Application\\AdminPanel\\Yoneticiler.aspx",
-              "ToolTip": "C:\\Users\\Skapar\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\SMDB_Application\\AdminPanel\\Yoneticiler.aspx",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\SMDB_Application\\AdminPanel\\Yoneticiler.aspx",
               "RelativeToolTip": "SMDB_Application\\AdminPanel\\Yoneticiler.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2024-10-21T12:33:31.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\DataAccessLayer\\DataModel.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\DataModel.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\DataAccessLayer\\DataModel.cs",
+              "RelativeToolTip": "DataAccessLayer\\DataModel.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAQwFMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T17:17:18.942Z",
               "EditorCaption": ""
             }
           ]

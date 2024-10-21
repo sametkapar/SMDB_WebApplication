@@ -82,6 +82,31 @@ namespace DataAccessLayer
             }
         }
 
+        //public void YoneticiTurDegistir(int id)
+        //{
+        //    try
+        //    {
+        //        cmd.CommandText = "SELECT Isim FROM YoneticiTurleri WHERE DI=@id";
+        //        cmd.Parameters.Clear();
+        //        cmd.Parameters.AddWithValue("@id", id);
+        //        con.Open();
+        //        string Isim = Convert.ToString(cmd.ExecuteScalar());
+        //        cmd.CommandText = "UPDATE YoneticiTurleri SET Durum =@Isim WHERE ID=@id";
+        //        cmd.Parameters.Clear();
+        //        cmd.Parameters.AddWithValue("@id", id);
+        //        cmd.Parameters.AddWithValue("Isim", Isim);
+        //        cmd.ExecuteNonQuery();
+        //    }
+        //    catch
+        //    {
+
+        //    }
+        //    finally
+        //    {
+        //        con.Close();
+        //    }
+        //}
+
         #endregion
 
         #region Kategori Metotları
