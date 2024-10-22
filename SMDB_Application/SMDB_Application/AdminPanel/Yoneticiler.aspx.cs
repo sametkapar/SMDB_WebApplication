@@ -10,7 +10,7 @@ namespace SMDB_Application.AdminPanel
 {
     public partial class Yoneticiler : System.Web.UI.Page
     {
-        DataModel dm =new DataModel();
+        DataModel dm = new DataModel();
         DropDownList yoneticiler;
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -30,9 +30,8 @@ namespace SMDB_Application.AdminPanel
 
         protected void ddl_Yoneticiler_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
-        }
 
+        }
 
     }
 }

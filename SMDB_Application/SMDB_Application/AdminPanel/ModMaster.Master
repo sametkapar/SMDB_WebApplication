@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ModMaster.master.cs" Inherits="SMDB_Application.AdminPanel.ModMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>SMDB Moderatör Paneli</title>
+    <link href="CSS/AdminPanelStyle.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+         <div class="ustMenu">
+     <div class="logoYeri">
+     </div>
+     <h2>SMDB Moderatör Paneli</h2>
+     <div class="bilgiYeri">
+         <asp:LinkButton ID="lbtn_cikis" runat="server" OnClick="lbtn_cikis_Click" Text="Güvenli Çıkış" CssClass="cikis_link"></asp:LinkButton>
+         <asp:Label ID="lbl_kullanici" runat="server" Text="KULLANICI ADI"></asp:Label>
+     </div>
+     <div style="clear: both"></div>
+ </div>
+ <div class="solMenu">
+     <a href="#">Anasayfa</a>
+     <a href="#">Muzik Ekle</a>
+     <a href="#">Album Ekle</a>
+     <a href="SanatciEkle.aspx">Sanatçı Ekle</a>
+     <a href="#">Plak Şirketi Ekle</a>
+     <a href="#">Müzik/Albüm/Sanatçı</a>
+ </div>
+ <div class="mainPanel">
+     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+     </asp:ContentPlaceHolder>
+ </div>
+    </form>
+</body>
+</html>

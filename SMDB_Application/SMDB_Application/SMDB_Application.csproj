@@ -75,7 +75,9 @@
     <Content Include="AdminPanel\KategoriDuzenle.aspx" />
     <Content Include="AdminPanel\KategoriEkle.aspx" />
     <Content Include="AdminPanel\KategoriListele.aspx" />
+    <Content Include="AdminPanel\ModDefault.aspx" />
     <Content Include="AdminPanel\Resimler\Logo300x300.png" />
+    <Content Include="AdminPanel\SanatciEkle.aspx" />
     <Content Include="AdminPanel\UyeListele.aspx" />
     <Content Include="AdminPanel\Yoneticiler.aspx" />
     <Content Include="Web.config" />
@@ -123,6 +125,27 @@
     <Compile Include="AdminPanel\KategoriListele.aspx.designer.cs">
       <DependentUpon>KategoriListele.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AdminPanel\ModDefault.aspx.cs">
+      <DependentUpon>ModDefault.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPanel\ModDefault.aspx.designer.cs">
+      <DependentUpon>ModDefault.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanel\ModMaster.Master.cs">
+      <DependentUpon>ModMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPanel\ModMaster.Master.designer.cs">
+      <DependentUpon>ModMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanel\SanatciEkle.aspx.cs">
+      <DependentUpon>SanatciEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPanel\SanatciEkle.aspx.designer.cs">
+      <DependentUpon>SanatciEkle.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AdminPanel\UyeListele.aspx.cs">
       <DependentUpon>UyeListele.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -141,6 +164,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AdminPanel\AdminPanelMaster.Master" />
+    <Content Include="AdminPanel\ModMaster.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

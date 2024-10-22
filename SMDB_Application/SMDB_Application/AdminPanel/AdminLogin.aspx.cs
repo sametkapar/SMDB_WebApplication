@@ -25,8 +25,21 @@ namespace SMDB_Application.AdminPanel
                     Yonetici y = dm.YoneticiGiris(tb_username.Text, tb_sifre.Text);
                     if (y != null)
                     {
-                        Session["GirisYapanYonetici"] = y;
-                        Response.Redirect("AdminPanel.aspx");
+                        if (y.YoneticiTur_ID == 1)
+                        {
+                            Session["GirisYapanYonetici"] = y;
+                            Response.Redirect("AdminPanel.aspx");
+                        }
+                        if (y.YoneticiTur_ID == 2) 
+                        {
+                            Session["GirisYapanModerator"] = y;
+                            Response.Redirect("ModDefault.aspx");
+                        }
+                        else
+                        {
+                            pnl_hata.Visible = true;
+                            lbl_hatametin.Text = "Kullanıcı bulunamadı";
+                        }
                     }
                     else
                     {

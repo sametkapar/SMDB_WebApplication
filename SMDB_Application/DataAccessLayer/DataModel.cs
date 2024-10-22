@@ -291,5 +291,31 @@ namespace DataAccessLayer
 
         #endregion
 
+        #region Moderator Metotları
+        public bool SanatciEkle(Sanatci sa)
+        {
+            try
+            {
+                cmd.CommandText = "INSERT into Sanatci (Isim, Soyisim, GrupMu, Durum) VALUES (@isim, @soyisim, @grupMu, @durum)";
+                cmd.Parameters.Clear();
+                cmd.Parameters.AddWithValue("@isim", sa.Isim);
+                cmd.Parameters.AddWithValue("@soyisim", sa.Soyisim);
+                cmd.Parameters.AddWithValue("@grupMu", sa.GrupMu);
+                cmd.Parameters.AddWithValue("@durum", sa.Durum);
+                con.Open();
+                cmd.ExecuteNonQuery();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+            finally
+            {
+                con.Close();
+            }
+        }
+        #endregion
+
     }
 }
