@@ -142,15 +142,15 @@ namespace DataAccessLayer
                 con.Open();
                 SqlDataReader reader = cmd.ExecuteReader();
                 Kategori k;
-                while (reader.Read()) 
+                while (reader.Read())
                 {
-                    k= new Kategori();
+                    k = new Kategori();
                     k.ID = reader.GetInt32(0);
                     k.Isim = reader.GetString(1);
                     k.Durum = reader.GetBoolean(2);
                     k.DurumStr = reader.GetBoolean(2) ? "Aktif" : "Pasif";
                     kategoriler.Add(k);
-                   
+
                 }
                 return kategoriler;
             }
@@ -160,7 +160,7 @@ namespace DataAccessLayer
             }
             finally
             {
-                con.Close() ;
+                con.Close();
             }
         }
         public void KategoriDurumDegistir(int id)
@@ -202,7 +202,7 @@ namespace DataAccessLayer
         {
             try
             {
-                cmd.CommandText = "UPDATE Kategori SET Isim=@isim, Durum=@durum WHERE ID=@id"; 
+                cmd.CommandText = "UPDATE Kategori SET Isim=@isim, Durum=@durum WHERE ID=@id";
                 cmd.Parameters.Clear();
                 cmd.Parameters.AddWithValue("@id", kat.ID);
                 cmd.Parameters.AddWithValue("@isim", kat.Isim);
@@ -268,13 +268,13 @@ namespace DataAccessLayer
                 {
                     u = new Uyeler();
                     u.ID = reader.GetInt32(0);
-                    u.Isim= reader.GetString(1);
-                    u.Soyisim= reader.GetString(2);
-                    u.Mail= reader.GetString(3);
-                    u.KullaniciAdi= reader.GetString(4);
-                    u.Sifre= reader.GetString(5);
-                    u.AktifMi=reader.GetBoolean(6);
-                    u.Durum=reader.GetBoolean(7);
+                    u.Isim = reader.GetString(1);
+                    u.Soyisim = reader.GetString(2);
+                    u.Mail = reader.GetString(3);
+                    u.KullaniciAdi = reader.GetString(4);
+                    u.Sifre = reader.GetString(5);
+                    u.AktifMi = reader.GetBoolean(6);
+                    u.Durum = reader.GetBoolean(7);
                     uyeler.Add(u);
                 }
                 return uyeler;
@@ -315,7 +315,102 @@ namespace DataAccessLayer
                 con.Close();
             }
         }
+        public List<Sanatci> SanatciGetir()
+        {
+            try
+            {
+                List<Sanatci> sanatcilar = new List<Sanatci>();
+                cmd.CommandText = "SELECT ID, Isim, Soyisim, GrupMu, Durum FROM Sanatci";
+                cmd.Parameters.Clear();
+                con.Open();
+                SqlDataReader reader = cmd.ExecuteReader();
+                Sanatci sa;
+                while (reader.Read())
+                {
+                    sa = new Sanatci();
+                    sa.ID = reader.GetInt32(0);
+                    sa.Isim = reader.GetString(1);
+                    sa.Soyisim = reader.GetString(2);
+                    sa.GrupMu = reader.GetBoolean(3);
+                    sa.Durum = reader.GetBoolean(4);
+                    sa.IsimSoyisim = sa.Isim + " "+ sa.Soyisim;
+
+                    sanatcilar.Add(sa);
+                }
+
+                return sanatcilar;
+            }
+            catch
+            {
+
+                return null;
+            }
+            finally
+            {
+                con.Close();
+            }
+        }
+        public bool PlakSirketiEkle(PlakSirket ps)
+        {
+            try
+            {
+                cmd.CommandText = "INSERT into PlakSirket (Isim, Adres, Telefon, Durum) VALUES (@isim, @adres, @telefon, @durum)";
+                cmd.Parameters.Clear();
+                cmd.Parameters.AddWithValue("@isim", ps.Isim);
+                cmd.Parameters.AddWithValue("@adres", ps.Adres);
+                cmd.Parameters.AddWithValue("@telefon", ps.Telefon);
+                cmd.Parameters.AddWithValue("@durum", ps.Durum);
+                con.Open();
+                cmd.ExecuteNonQuery();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+            finally
+            {
+                con.Close();
+            }
+        }
+        public List<PlakSirket> PlakSirketGetir()
+        {
+            try
+            {
+                List<PlakSirket> Psirketler = new List<PlakSirket>();
+                cmd.CommandText = "SELECT ID, Isim, Adres, Telefon, Durum FROM PlakSirket";
+                cmd.Parameters.Clear();
+                con.Open();
+                SqlDataReader reader = cmd.ExecuteReader();
+                PlakSirket ps;
+                while (reader.Read()) 
+                {
+                    ps = new PlakSirket();
+                    ps.ID = reader.GetInt32(0);
+                    ps.Isim = reader.GetString(1);
+                    ps.Adres = reader.GetString(2);
+                    ps.Telefon = reader.GetString(3);
+                    ps.Durum = reader.GetBoolean(4);
+                    Psirketler.Add(ps);
+                
+                }
+                return Psirketler;
+
+            }
+            catch
+            {
+                return null;
+            }
+            finally
+            {
+                con.Close();
+            }
+        }
+
+        
+        
         #endregion
+
 
     }
 }

@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="AdminPanel\AdminLogin.aspx" />
     <Content Include="AdminPanel\AdminPanel.aspx" />
+    <Content Include="AdminPanel\AlbumEkle.aspx" />
     <Content Include="AdminPanel\CSS\AdminPanelStyle.css" />
     <Content Include="AdminPanel\CSS\KatEkleStyle.css" />
     <Content Include="AdminPanel\CSS\LoginPageStyle.css" />
@@ -76,6 +77,7 @@
     <Content Include="AdminPanel\KategoriEkle.aspx" />
     <Content Include="AdminPanel\KategoriListele.aspx" />
     <Content Include="AdminPanel\ModDefault.aspx" />
+    <Content Include="AdminPanel\PlakSirketEkle.aspx" />
     <Content Include="AdminPanel\Resimler\Logo300x300.png" />
     <Content Include="AdminPanel\SanatciEkle.aspx" />
     <Content Include="AdminPanel\UyeListele.aspx" />
@@ -103,6 +105,13 @@
     </Compile>
     <Compile Include="AdminPanel\AdminPanelMaster.Master.designer.cs">
       <DependentUpon>AdminPanelMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanel\AlbumEkle.aspx.cs">
+      <DependentUpon>AlbumEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPanel\AlbumEkle.aspx.designer.cs">
+      <DependentUpon>AlbumEkle.aspx</DependentUpon>
     </Compile>
     <Compile Include="AdminPanel\KategoriDuzenle.aspx.cs">
       <DependentUpon>KategoriDuzenle.aspx</DependentUpon>
@@ -138,6 +147,13 @@
     </Compile>
     <Compile Include="AdminPanel\ModMaster.Master.designer.cs">
       <DependentUpon>ModMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanel\PlakSirketEkle.aspx.cs">
+      <DependentUpon>PlakSirketEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPanel\PlakSirketEkle.aspx.designer.cs">
+      <DependentUpon>PlakSirketEkle.aspx</DependentUpon>
     </Compile>
     <Compile Include="AdminPanel\SanatciEkle.aspx.cs">
       <DependentUpon>SanatciEkle.aspx</DependentUpon>

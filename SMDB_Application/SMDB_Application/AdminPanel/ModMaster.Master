@@ -24,9 +24,9 @@
  <div class="solMenu">
      <a href="#">Anasayfa</a>
      <a href="#">Muzik Ekle</a>
-     <a href="#">Album Ekle</a>
+     <a href="AlbumEkle.aspx">Album Ekle</a>
      <a href="SanatciEkle.aspx">Sanatçı Ekle</a>
-     <a href="#">Plak Şirketi Ekle</a>
+     <a href="PlakSirketEkle.aspx">Plak Şirketi Ekle</a>
      <a href="#">Müzik/Albüm/Sanatçı</a>
  </div>
  <div class="mainPanel">
