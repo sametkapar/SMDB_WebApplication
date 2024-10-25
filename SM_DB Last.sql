@@ -57,11 +57,21 @@ CREATE TABLE Sanatci
 	CONSTRAINT pk_Sanatci PRIMARY KEY(ID)
 )
 GO
-
+CREATE TABLE PlakSirket
+(
+	ID int IDENTITY(1,1),
+	Isim nvarchar(200),
+	Adres ntext,
+	Telefon nvarchar(50),
+	Durum bit,
+	CONSTRAINT pk_PlakSirket PRIMARY KEY(ID)
+)
+GO
 CREATE TABLE Album
 (
 	ID int IDENTITY(1,1),
 	Sanatci_ID int,
+	Sirket_ID int,
 	CikisYili Datetime,
 	AlbumTopPuan smallint,
 	KapakFoto nvarchar(120),
@@ -70,7 +80,9 @@ CREATE TABLE Album
 	Isim nvarchar(200),
 	CONSTRAINT pk_Album	PRIMARY KEY(ID),
 	CONSTRAINT fk_SanatciAlbum FOREIGN KEY(Sanatci_ID)
-	REFERENCES Sanatci(ID)
+	REFERENCES Sanatci(ID),
+	CONSTRAINT fk_SirketAlbum FOREIGN KEY(Sirket_ID)
+	REFERENCES PlakSirket(ID)
 )
 GO
 CREATE TABLE Muzik
@@ -105,28 +117,8 @@ CREATE TABLE MuzikTurleri
 	REFERENCES MuzikTur(ID)
 )
 GO
-CREATE TABLE PlakSirket
-(
-	ID int IDENTITY(1,1),
-	Isim nvarchar(200),
-	Adres ntext,
-	Telefon nvarchar(50),
-	Durum bit,
-	CONSTRAINT pk_PlakSirket PRIMARY KEY(ID)
-)
-GO
-CREATE TABLE AlbumSirket
-(
-	ID int IDENTITY(1,1),
-	Album_ID int,
-	Sirket_ID int,
-	CONSTRAINT pk_AlbumSirket PRIMARY KEY(ID),
-	CONSTRAINT fk_AlbumSirketAlbum FOREIGN KEY(Album_ID)
-	REFERENCES Album(ID),
-	CONSTRAINT fk_AlbumSirketSirket FOREIGN KEY(Sirket_ID)
-	REFERENCES PlakSirket(ID)
-)
-GO
+
+
 CREATE TABLE Kullanici
 (
 	ID int IDENTITY(1,1),

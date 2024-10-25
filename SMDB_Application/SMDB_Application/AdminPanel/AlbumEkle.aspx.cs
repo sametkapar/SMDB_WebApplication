@@ -27,6 +27,7 @@ namespace SMDB_Application.AdminPanel
             Album a = new Album();
         
             a.Sanatci_ID = Convert.ToInt32(ddl_sanatciSec.SelectedItem.Value);
+            a.Sirket_ID = Convert.ToInt32(ddl_plakSirketSec.SelectedItem.Value);
             a.CikisYili = Convert.ToDateTime(tb_cikisYili.Text);
             a.Isim = tb_isim.Text;
             a.Durum = cb_durum.Checked;
@@ -74,23 +75,6 @@ namespace SMDB_Application.AdminPanel
                 pnl_basarili.Visible = false;
                 lbl_mesaj.Text = "Resim uzantısı JPG veya PNG olmalıdır";
             }
-            AlbumSirket als = new AlbumSirket();
-            als.Sirket_ID = Convert.ToInt32(ddl_plakSirketSec.SelectedItem.Value);
-            als.Album_ID = a.ID;
-
-            if (dm.AlbumSirketEkle(als))
-            {
-                pnl_basarisiz.Visible = false;
-                pnl_basarili.Visible = true;
-            }
-            else
-            {
-                pnl_basarisiz.Visible = true;
-                pnl_basarili.Visible = false;
-                lbl_mesaj.Text = "AlbumŞirket eklenirken bir hata oluştu";
-            }
-
-
         }
     }
 }

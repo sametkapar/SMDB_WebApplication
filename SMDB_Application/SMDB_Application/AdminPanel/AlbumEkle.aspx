@@ -46,6 +46,8 @@
                     <asp:LinkButton ID="lbtn_ekle" runat="server" OnClick="lbtn_ekle_Click" CssClass="EkleButon">Albüm Ekle</asp:LinkButton>
                     <div style="clear: both"></div>
                 </div>
+
+               
             </div>
         </div>
 </asp:Content>

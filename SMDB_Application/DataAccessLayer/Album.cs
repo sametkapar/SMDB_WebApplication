@@ -19,8 +19,8 @@ namespace DataAccessLayer
         public byte MuzikSayisi { get; set; }
         public bool Durum { get; set; }
         public string Isim { get; set; }
-        public int PlakSirket_ID { get; set; }
-        public string PlakSirketIsim { get; set; }
+        public int Sirket_ID { get; set; }
+        public string SirketIsim { get; set; }
 
         
 

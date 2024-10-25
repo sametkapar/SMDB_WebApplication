@@ -42,7 +42,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Album.cs" />
-    <Compile Include="AlbumSirket.cs" />
     <Compile Include="ConnectionStrings.cs" />
     <Compile Include="DataModel.cs" />
     <Compile Include="Kategori.cs" />

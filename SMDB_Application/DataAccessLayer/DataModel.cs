@@ -406,35 +406,14 @@ namespace DataAccessLayer
                 con.Close();
             }
         }
-        public bool AlbumSirketEkle(AlbumSirket als)
-        {
-            try
-            {
-                cmd.CommandText = "INSERT INTO AlbumSirket (Album_ID, Sirket_ID) VALUES (@asa, @ass)";
-                cmd.Parameters.Clear();
-                cmd.Parameters.AddWithValue("@asa", als.Album_ID);
-                cmd.Parameters.AddWithValue("@ass", als.Sirket_ID);
-                con.Open();
-                cmd.ExecuteNonQuery();
-                return true;
-            }
-            catch
-            {
-                return false;
-            }
-            finally
-            {
-                con.Close();
-            }
-        }
-
         public bool AlbumEkle(Album a)
         {
             try
             {
-                cmd.CommandText = "INSERT INTO Album (Sanatci_ID, CikisYili, AlbumTopPuan, KapakFoto, MuzikSayisi, Durum, Isim) VALUES (@sanatci_id, @cikisyili, @albumtoppuan, @kapakfoto, @muziksayisi, @durum, @isim)";
+                cmd.CommandText = "INSERT INTO Album (Sanatci_ID, Sirket_ID, CikisYili, AlbumTopPuan, KapakFoto, MuzikSayisi, Durum, Isim) VALUES (@sanatci_id, @sirket_id, @cikisyili, @albumtoppuan, @kapakfoto, @muziksayisi, @durum, @isim)";
                 cmd.Parameters.Clear();
                 cmd.Parameters.AddWithValue("@sanatci_id", a.Sanatci_ID);
+                cmd.Parameters.AddWithValue("@sirket_id", a.Sirket_ID);
                 cmd.Parameters.AddWithValue("@cikisyili", a.CikisYili);
                 cmd.Parameters.AddWithValue("albumtoppuan", a.AlbumTopPuan);
                 cmd.Parameters.AddWithValue("@kapakfoto", a.KapakFoto);
