@@ -57,15 +57,17 @@ CREATE TABLE Sanatci
 	CONSTRAINT pk_Sanatci PRIMARY KEY(ID)
 )
 GO
+
 CREATE TABLE Album
 (
 	ID int IDENTITY(1,1),
 	Sanatci_ID int,
 	CikisYili Datetime,
 	AlbumTopPuan smallint,
-	KapakFoto nvarchar(50),
+	KapakFoto nvarchar(120),
 	MuzikSayisi tinyint,
 	Durum bit,
+	Isim nvarchar(200),
 	CONSTRAINT pk_Album	PRIMARY KEY(ID),
 	CONSTRAINT fk_SanatciAlbum FOREIGN KEY(Sanatci_ID)
 	REFERENCES Sanatci(ID)

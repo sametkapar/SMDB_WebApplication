@@ -333,7 +333,7 @@ namespace DataAccessLayer
                     sa.Soyisim = reader.GetString(2);
                     sa.GrupMu = reader.GetBoolean(3);
                     sa.Durum = reader.GetBoolean(4);
-                    sa.IsimSoyisim = sa.Isim + " "+ sa.Soyisim;
+                    sa.IsimSoyisim = sa.Isim + " " + sa.Soyisim;
 
                     sanatcilar.Add(sa);
                 }
@@ -383,7 +383,7 @@ namespace DataAccessLayer
                 con.Open();
                 SqlDataReader reader = cmd.ExecuteReader();
                 PlakSirket ps;
-                while (reader.Read()) 
+                while (reader.Read())
                 {
                     ps = new PlakSirket();
                     ps.ID = reader.GetInt32(0);
@@ -392,7 +392,7 @@ namespace DataAccessLayer
                     ps.Telefon = reader.GetString(3);
                     ps.Durum = reader.GetBoolean(4);
                     Psirketler.Add(ps);
-                
+
                 }
                 return Psirketler;
 
@@ -406,11 +406,56 @@ namespace DataAccessLayer
                 con.Close();
             }
         }
+        public bool AlbumSirketEkle(AlbumSirket als)
+        {
+            try
+            {
+                cmd.CommandText = "INSERT INTO AlbumSirket (Album_ID, Sirket_ID) VALUES (@asa, @ass)";
+                cmd.Parameters.Clear();
+                cmd.Parameters.AddWithValue("@asa", als.Album_ID);
+                cmd.Parameters.AddWithValue("@ass", als.Sirket_ID);
+                con.Open();
+                cmd.ExecuteNonQuery();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+            finally
+            {
+                con.Close();
+            }
+        }
 
-        
-        
-        #endregion
+        public bool AlbumEkle(Album a)
+        {
+            try
+            {
+                cmd.CommandText = "INSERT INTO Album (Sanatci_ID, CikisYili, AlbumTopPuan, KapakFoto, MuzikSayisi, Durum, Isim) VALUES (@sanatci_id, @cikisyili, @albumtoppuan, @kapakfoto, @muziksayisi, @durum, @isim)";
+                cmd.Parameters.Clear();
+                cmd.Parameters.AddWithValue("@sanatci_id", a.Sanatci_ID);
+                cmd.Parameters.AddWithValue("@cikisyili", a.CikisYili);
+                cmd.Parameters.AddWithValue("@albumtoppuan", a.KapakFoto);
+                cmd.Parameters.AddWithValue("@müziksayisi", a.MuzikSayisi);
+                cmd.Parameters.AddWithValue("durum", a.Durum);
+                cmd.Parameters.AddWithValue("@isim", a.Isim);
+                con.Open();
+                cmd.ExecuteNonQuery();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+            finally
+            {
+                con.Close();
+            }
+
+            #endregion
 
 
+        }
     }
 }

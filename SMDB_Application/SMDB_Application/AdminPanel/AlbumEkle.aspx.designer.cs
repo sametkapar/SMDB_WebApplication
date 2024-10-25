@@ -78,6 +78,15 @@ namespace SMDB_Application.AdminPanel
         protected global::System.Web.UI.WebControls.DropDownList ddl_plakSirketSec;
 
         /// <summary>
+        /// fu_resim control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.FileUpload fu_resim;
+
+        /// <summary>
         /// cb_durum control.
         /// </summary>
         /// <remarks>

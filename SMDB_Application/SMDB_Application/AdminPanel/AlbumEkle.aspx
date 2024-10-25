@@ -16,7 +16,7 @@
                 <asp:Label ID="lbl_mesaj" runat="server"></asp:Label>
             </asp:Panel>
             <div class="satir">
-                <label>Kategori Adı</label><br />
+                <label>Albüm Adı</label><br />
                 <asp:TextBox ID="tb_isim" runat="server" CssClass="metinKutu" placeholder="Albüm Adı Giriniz"></asp:TextBox>
             </div>
             <div class="satir">
@@ -34,7 +34,10 @@
                 <asp:DropDownList ID="ddl_plakSirketSec" runat="server" DataTextField="Isim" DataValueField="ID" AppendDataBoundItems="true" CssClass="metinKutu">
                     <asp:ListItem Value="-1" Text="Şirket"></asp:ListItem>
                 </asp:DropDownList>
-
+                <div class="satir">
+                    <label>Kapak Resmi</label><br />
+                    <asp:FileUpload ID="fu_resim" runat="server" CssClass="metinKutu" />
+                </div>
                 <div class="satir">
                     <asp:CheckBox ID="cb_durum" runat="server" CssClass="katEkleCheck" Text="Albüm Aktif Mi?" />
                 </div>
