@@ -59,6 +59,7 @@ namespace SMDB_Application.AdminPanel
                 {
                     pnl_basarisiz.Visible = false;
                     pnl_basarili.Visible = true;
+
                 }
                 else
                 {
@@ -88,7 +89,6 @@ namespace SMDB_Application.AdminPanel
                 pnl_basarili.Visible = false;
                 lbl_mesaj.Text = "AlbumŞirket eklenirken bir hata oluştu";
             }
-
 
 
         }

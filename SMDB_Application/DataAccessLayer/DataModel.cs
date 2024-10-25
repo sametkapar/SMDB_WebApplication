@@ -436,8 +436,9 @@ namespace DataAccessLayer
                 cmd.Parameters.Clear();
                 cmd.Parameters.AddWithValue("@sanatci_id", a.Sanatci_ID);
                 cmd.Parameters.AddWithValue("@cikisyili", a.CikisYili);
-                cmd.Parameters.AddWithValue("@albumtoppuan", a.KapakFoto);
-                cmd.Parameters.AddWithValue("@müziksayisi", a.MuzikSayisi);
+                cmd.Parameters.AddWithValue("albumtoppuan", a.AlbumTopPuan);
+                cmd.Parameters.AddWithValue("@kapakfoto", a.KapakFoto);
+                cmd.Parameters.AddWithValue("@muziksayisi", a.MuzikSayisi);
                 cmd.Parameters.AddWithValue("durum", a.Durum);
                 cmd.Parameters.AddWithValue("@isim", a.Isim);
                 con.Open();
