@@ -11,7 +11,7 @@
     <form id="form1" runat="server">
         <div class="main">
             <div class="logoAlani">
-                <img src="Resimler/Logo300x300.png" />
+                <%--<img src="Resimler/Logo300x300.png" />--%>
             </div>
             <h3>SMDB ADMİN PANEL</h3>
             <asp:Panel ID="pnl_hata" runat="server" CssClass="hatakutu" Visible="false">

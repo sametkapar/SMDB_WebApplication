@@ -6,6 +6,7 @@
 body {
     font-family: Calibri;
     background-color: #DEEFE7;
+
 }
 
 .main {
@@ -13,7 +14,12 @@ body {
     margin: 270px auto;
     color: white;
     border: 3px solid #002333;
-    border-radius:3px;
+    border-radius: 3px;
+    background-color: #8FC1B5;
+    min-height: 300px;
+    box-shadow: 14px 12px 10px 0px rgba(0,0,0,0.68);
+    -webkit-box-shadow: 14px 12px 10px 0px rgba(0,0,0,0.68);
+    -moz-box-shadow: 14px 12px 10px 0px rgba(0,0,0,0.68);
 }
 
     .main h3 {
@@ -31,7 +37,7 @@ body {
 
 .anaPanel {
     margin-top: 30px;
-    background-color: #DEEFE7;
+    background-color: #8FC1B5;
 }
 
     .anaPanel label {
@@ -57,17 +63,17 @@ body {
         border-radius: 5px;
         color: white;
         font-size: 12pt;
-        border: 1px solid #DEEFE7;
+        border: 1px solid #8FC1B5;
         color: #000039;
         font-weight: 400;
-        box-shadow: 10px 9px 12px -7px rgba(110,71,51,0.75);
-        -webkit-box-shadow: 10px 9px 12px -7px rgba(110,71,51,0.75);
-        -moz-box-shadow: 10px 9px 12px -7px rgba(110,71,51,0.75);
     }
 
-
-        .satir .metinKutu:focus {
+        .satir .metinKutu:hover {
             border: 1px solid white;
+            outline:none;
+        }
+        .satir .metinKutu:focus {
+            border: 1px solid #8FC1B5;
             outline: none;
         }
 
@@ -77,16 +83,16 @@ body {
     padding: 10px 50px;
     border-radius: 3px;
     background: rgb(140,130,135);
-    background: linear-gradient(90deg, rgba(140,130,135,1) 0%, rgba(77,62,55,1) 35%, rgba(126,117,130,1) 100%);
+    background-color: #002333;
     text-align: center;
-    box-shadow: 10px 9px 12px -7px rgba(110,71,51,0.75);
-    -webkit-box-shadow: 10px 9px 12px -7px rgba(110,71,51,0.75);
-    -moz-box-shadow: 10px 9px 12px -7px rgba(110,71,51,0.75);
+    box-shadow: -7px 4px 10px 0px rgba(0,0,0,0.68);
+    -webkit-box-shadow: -7px 4px 10px 0px rgba(0,0,0,0.68);
+    -moz-box-shadow: -7px 4px 10px 0px rgba(0,0,0,0.68);
 }
 
     .girisButon:hover {
-        background: rgb(40,38,39);
-        background: linear-gradient(90deg, rgba(40,38,39,1) 0%, rgba(77,62,55,1) 35%, rgba(40,39,41,1) 100%);
+        background: rgb(0,35,51);
+        background: linear-gradient(90deg, rgba(0,35,51,1) 1%, rgba(164,179,172,1) 47%, rgba(0,35,51,1) 100%);
     }
 
 .hatakutu {
