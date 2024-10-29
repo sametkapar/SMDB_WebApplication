@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.ComponentModel.Design;
 using System.Data.SqlClient;
 using System.Linq;
+using System.Runtime.CompilerServices;
+using System.Runtime.Remoting.Messaging;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
@@ -291,7 +293,7 @@ namespace DataAccessLayer
 
         #endregion
 
-        #region Moderator Metotları
+        #region Moderatör Metotları
         public bool SanatciEkle(Sanatci sa)
         {
             try
@@ -433,9 +435,141 @@ namespace DataAccessLayer
                 con.Close();
             }
 
-            #endregion
+
 
 
         }
+        public List<Album> AlbumGetir()
+        {
+            try
+            {
+                List<Album> albumler = new List<Album>();
+                cmd.CommandText = "SELECT ID, Sanatci_ID, Sirket_ID, CikisYili, AlbumTopPuan, KapakFoto, MuzikSayisi, Durum, Isim FROM Album";
+                cmd.Parameters.Clear();
+                con.Open();
+                SqlDataReader reader = cmd.ExecuteReader();
+                Album a;
+                while (reader.Read())
+                {
+                    a = new Album();
+                    a.ID = reader.GetInt32(0);
+                    a.Sanatci_ID = reader.GetInt32(1);
+                    a.Sirket_ID = reader.GetInt32(2);
+                    a.CikisYili = reader.GetDateTime(3);
+                    a.AlbumTopPuan = reader.GetInt16(4);
+                    a.KapakFoto = reader.GetString(5);
+                    a.MuzikSayisi = reader.GetByte(6);
+                    a.Durum = reader.GetBoolean(7);
+                    a.Isim = reader.GetString(8);
+                    albumler.Add(a);
+
+                }
+                return albumler;
+            }
+            catch
+            {
+                return null;
+            }
+            finally
+            {
+                con.Close();
+            }
+        }
+        public bool MuzikEkle(Muzik m)
+        {
+            try
+            {
+                cmd.CommandText = "INSERT INTO Muzik (Isim, Durum, Album_ID) VALUES (@isim, @durum,@album_id)";
+                cmd.Parameters.Clear();
+                cmd.Parameters.AddWithValue("@isim", m.Isim);
+                cmd.Parameters.AddWithValue("durum", m.Durum);
+                cmd.Parameters.AddWithValue("album_id", m.Album_ID);
+                con.Open();
+                cmd.ExecuteNonQuery();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+            finally
+            {
+                con.Close();
+            }
+        }
+
+        public List<MuzikTur> MuzikTurGetir()
+        {
+
+            try
+            {
+                List<MuzikTur> muzikTurleri = new List<MuzikTur>();
+                cmd.CommandText = "SELECT ID, Isim FROM MuzikTur";
+                cmd.Parameters.Clear();
+                con.Open();
+                SqlDataReader reader = cmd.ExecuteReader();
+                MuzikTur mt;
+                while (reader.Read())
+                {
+                    mt = new MuzikTur();
+                    mt.ID = reader.GetInt32(0);
+                    mt.Isim = reader.GetString(1);
+                    muzikTurleri.Add(mt);
+                }
+                return muzikTurleri;
+            }
+            catch
+            {
+                return null;
+            }
+            finally
+            {
+                con.Close();
+            }
+        }
+
+        #endregion
+
+        #region Müzik Metotları
+
+        public List<Muzik> MuzikleriGetir()
+        {
+            try
+            {
+                List<Muzik> muzikler = new List<Muzik>();
+                cmd.CommandText = "SELECT M.ID, M.Album_ID, A.Isim, A.Sanatci_ID, S.Isim, S.Soyisim, M.Isim, M.Puanlama FROM Muzik AS M JOIN Album AS A ON M.Album_ID = A.ID  JOIN Sanatci AS S ON S.ID = A.Sanatci_ID ";
+                cmd.Parameters.Clear();
+                con.Open();
+                SqlDataReader reader = cmd.ExecuteReader();
+                Muzik m;
+                while (reader.Read())
+                {
+                    m = new Muzik();
+                    m.ID = reader.GetInt32(0);
+                    m.Album_ID = reader.GetInt32(1);
+                    m.AlbumIsim= reader.GetString(2);
+                    m.Sanatci_ID = reader.GetInt32(3);
+                    m.SanatciIsim = reader.GetString(4);
+                    m.SanatciSoyisim = reader.GetString(5);
+                    m.Isim = reader.GetString(6);
+                    m.Puanlama = reader.GetInt32(7);
+                    m.SanatciFullIsim = m.SanatciIsim + " " + m.SanatciSoyisim;
+                    muzikler.Add(m);
+                }
+                return muzikler;
+            }
+            catch
+            {
+                return null;
+            }
+            finally
+            {
+                con.Close();
+            }
+        }
+
+        #endregion
+
+
     }
 }

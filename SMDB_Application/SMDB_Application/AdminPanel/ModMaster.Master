@@ -23,11 +23,11 @@
  </div>
  <div class="solMenu">
      <a href="#">Anasayfa</a>
-     <a href="#">Muzik Ekle</a>
+     <a href="MuzikEkle.aspx">Muzik Ekle</a>
      <a href="AlbumEkle.aspx">Album Ekle</a>
      <a href="SanatciEkle.aspx">Sanatçı Ekle</a>
      <a href="PlakSirketEkle.aspx">Plak Şirketi Ekle</a>
-     <a href="#">Müzik/Albüm/Sanatçı</a>
+     <a href="MuzikListele.aspx">Müzik/Albüm/Sanatçı</a>
  </div>
  <div class="mainPanel">
      <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">

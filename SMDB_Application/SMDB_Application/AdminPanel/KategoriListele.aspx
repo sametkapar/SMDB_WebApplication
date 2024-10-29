@@ -14,7 +14,7 @@
                     <table class="pavlov" cellpadding="0" cellspacing="0">
                         <tr>
                             <th>No</th>
-                            <th width="75%">Kategori Adı</th>
+                            <th width="50%">Kategori Adı</th>
                             <th>Durum</th>
                             <th>Seçenekler</th>
                         </tr>

@@ -77,11 +77,15 @@
     <Content Include="AdminPanel\KategoriEkle.aspx" />
     <Content Include="AdminPanel\KategoriListele.aspx" />
     <Content Include="AdminPanel\ModDefault.aspx" />
+    <Content Include="AdminPanel\MuzikEkle.aspx" />
+    <Content Include="AdminPanel\MuzikListele.aspx" />
     <Content Include="AdminPanel\PlakSirketEkle.aspx" />
     <Content Include="AdminPanel\Resimler\Logo300x300.png" />
     <Content Include="AdminPanel\SanatciEkle.aspx" />
     <Content Include="AdminPanel\UyeListele.aspx" />
     <Content Include="AdminPanel\Yoneticiler.aspx" />
+    <Content Include="MainPage\KullaniciPanel.aspx" />
+    <Content Include="MainPage\Yorumlarim.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -148,6 +152,20 @@
     <Compile Include="AdminPanel\ModMaster.Master.designer.cs">
       <DependentUpon>ModMaster.Master</DependentUpon>
     </Compile>
+    <Compile Include="AdminPanel\MuzikEkle.aspx.cs">
+      <DependentUpon>MuzikEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPanel\MuzikEkle.aspx.designer.cs">
+      <DependentUpon>MuzikEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanel\MuzikListele.aspx.cs">
+      <DependentUpon>MuzikListele.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPanel\MuzikListele.aspx.designer.cs">
+      <DependentUpon>MuzikListele.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AdminPanel\PlakSirketEkle.aspx.cs">
       <DependentUpon>PlakSirketEkle.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -176,11 +194,33 @@
     <Compile Include="AdminPanel\Yoneticiler.aspx.designer.cs">
       <DependentUpon>Yoneticiler.aspx</DependentUpon>
     </Compile>
+    <Compile Include="MainPage\KullaniciMaster.Master.cs">
+      <DependentUpon>KullaniciMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MainPage\KullaniciMaster.Master.designer.cs">
+      <DependentUpon>KullaniciMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage\KullaniciPanel.aspx.cs">
+      <DependentUpon>KullaniciPanel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MainPage\KullaniciPanel.aspx.designer.cs">
+      <DependentUpon>KullaniciPanel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage\Yorumlarim.aspx.cs">
+      <DependentUpon>Yorumlarim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MainPage\Yorumlarim.aspx.designer.cs">
+      <DependentUpon>Yorumlarim.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="AdminPanel\AdminPanelMaster.Master" />
     <Content Include="AdminPanel\ModMaster.Master" />
+    <Content Include="MainPage\KullaniciMaster.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
