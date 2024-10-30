@@ -294,64 +294,7 @@ namespace DataAccessLayer
         #endregion
 
         #region Moderatör Metotları
-        public bool SanatciEkle(Sanatci sa)
-        {
-            try
-            {
-                cmd.CommandText = "INSERT into Sanatci (Isim, Soyisim, GrupMu, Durum) VALUES (@isim, @soyisim, @grupMu, @durum)";
-                cmd.Parameters.Clear();
-                cmd.Parameters.AddWithValue("@isim", sa.Isim);
-                cmd.Parameters.AddWithValue("@soyisim", sa.Soyisim);
-                cmd.Parameters.AddWithValue("@grupMu", sa.GrupMu);
-                cmd.Parameters.AddWithValue("@durum", sa.Durum);
-                con.Open();
-                cmd.ExecuteNonQuery();
-                return true;
-            }
-            catch
-            {
-                return false;
-            }
-            finally
-            {
-                con.Close();
-            }
-        }
-        public List<Sanatci> SanatciGetir()
-        {
-            try
-            {
-                List<Sanatci> sanatcilar = new List<Sanatci>();
-                cmd.CommandText = "SELECT ID, Isim, Soyisim, GrupMu, Durum FROM Sanatci";
-                cmd.Parameters.Clear();
-                con.Open();
-                SqlDataReader reader = cmd.ExecuteReader();
-                Sanatci sa;
-                while (reader.Read())
-                {
-                    sa = new Sanatci();
-                    sa.ID = reader.GetInt32(0);
-                    sa.Isim = reader.GetString(1);
-                    sa.Soyisim = reader.GetString(2);
-                    sa.GrupMu = reader.GetBoolean(3);
-                    sa.Durum = reader.GetBoolean(4);
-                    sa.IsimSoyisim = sa.Isim + " " + sa.Soyisim;
 
-                    sanatcilar.Add(sa);
-                }
-
-                return sanatcilar;
-            }
-            catch
-            {
-
-                return null;
-            }
-            finally
-            {
-                con.Close();
-            }
-        }
         public bool PlakSirketiEkle(PlakSirket ps)
         {
             try
@@ -537,7 +480,7 @@ namespace DataAccessLayer
             try
             {
                 List<Muzik> muzikler = new List<Muzik>();
-                cmd.CommandText = "SELECT M.ID, M.Album_ID, A.Isim, A.Sanatci_ID, S.Isim, S.Soyisim, M.Isim, M.Puanlama FROM Muzik AS M JOIN Album AS A ON M.Album_ID = A.ID  JOIN Sanatci AS S ON S.ID = A.Sanatci_ID ";
+                cmd.CommandText = "SELECT M.ID, M.Album_ID, A.Isim, A.Sanatci_ID, S.Isim, S.Soyisim, M.Isim FROM Muzik AS M JOIN Album AS A ON M.Album_ID = A.ID  JOIN Sanatci AS S ON S.ID = A.Sanatci_ID ";
                 cmd.Parameters.Clear();
                 con.Open();
                 SqlDataReader reader = cmd.ExecuteReader();
@@ -547,12 +490,11 @@ namespace DataAccessLayer
                     m = new Muzik();
                     m.ID = reader.GetInt32(0);
                     m.Album_ID = reader.GetInt32(1);
-                    m.AlbumIsim= reader.GetString(2);
+                    m.AlbumIsim = reader.GetString(2);
                     m.Sanatci_ID = reader.GetInt32(3);
                     m.SanatciIsim = reader.GetString(4);
                     m.SanatciSoyisim = reader.GetString(5);
                     m.Isim = reader.GetString(6);
-                    m.Puanlama = reader.GetInt32(7);
                     m.SanatciFullIsim = m.SanatciIsim + " " + m.SanatciSoyisim;
                     muzikler.Add(m);
                 }
@@ -568,8 +510,129 @@ namespace DataAccessLayer
             }
         }
 
+        public Muzik MuzikleriGetir(int id)
+        {
+            try
+            {
+                cmd.CommandText = "SELECT M.ID, M.Album_ID, A.Isim, A.Sanatci_ID, S.Isim, S.Soyisim, M.Isim FROM Muzik AS M JOIN Album AS A ON M.Album_ID = A.ID  JOIN Sanatci AS S ON S.ID = A.Sanatci_ID  WHERE A.Sanatci_ID=@id";
+                cmd.Parameters.Clear();
+                cmd.Parameters.AddWithValue("@id", id);
+                con.Open();
+                SqlDataReader reader = cmd.ExecuteReader();
+                Muzik m = new Muzik();
+                while (reader.Read())
+                {
+
+                    m.ID = reader.GetInt32(0);
+                    m.Album_ID = reader.GetInt32(1);
+                    m.AlbumIsim = reader.GetString(2);
+                    m.Sanatci_ID = reader.GetInt32(3);
+                    m.SanatciIsim = reader.GetString(4);
+                    m.SanatciSoyisim = reader.GetString(5);
+                    m.Isim = reader.GetString(6);
+                    m.SanatciFullIsim = m.SanatciIsim + " " + m.SanatciSoyisim;
+                }
+                return m;
+            }
+            catch { return null; }
+            finally { con.Close(); }
+        }
         #endregion
 
+        #region Sanatçı Metotları
+        public bool SanatciEkle(Sanatci sa)
+        {
+            try
+            {
+                cmd.CommandText = "INSERT into Sanatci (Isim, Soyisim, GrupMu, Durum) VALUES (@isim, @soyisim, @grupMu, @durum)";
+                cmd.Parameters.Clear();
+                cmd.Parameters.AddWithValue("@isim", sa.Isim);
+                cmd.Parameters.AddWithValue("@soyisim", sa.Soyisim);
+                cmd.Parameters.AddWithValue("@grupMu", sa.GrupMu);
+                cmd.Parameters.AddWithValue("@durum", sa.Durum);
+                con.Open();
+                cmd.ExecuteNonQuery();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+            finally
+            {
+                con.Close();
+            }
+        }
+        public List<Sanatci> SanatciGetir()
+        {
+            try
+            {
+                List<Sanatci> sanatcilar = new List<Sanatci>();
+                cmd.CommandText = "SELECT ID, Isim, Soyisim, GrupMu, Durum, FROM Sanatci";
+                cmd.Parameters.Clear();
+
+                con.Open();
+                SqlDataReader reader = cmd.ExecuteReader();
+                Sanatci sa;
+                while (reader.Read())
+                {
+                    sa = new Sanatci();
+                    sa.ID = reader.GetInt32(0);
+                    sa.Isim = reader.GetString(1);
+                    sa.Soyisim = reader.GetString(2);
+                    sa.GrupMu = reader.GetBoolean(3);
+                    sa.Durum = reader.GetBoolean(4);
+                    sa.IsimSoyisim = sa.Isim + " " + sa.Soyisim;
+
+                    sanatcilar.Add(sa);
+                }
+
+                return sanatcilar;
+            }
+            catch
+            {
+
+                return null;
+            }
+            finally
+            {
+                con.Close();
+            }
+        }
+        public Sanatci SanatciGetir(int id)
+        {
+            try
+            {
+                cmd.CommandText = "SELECT ID, Isim, Soyisim, GrupMu, Durum, FROM Sanatci WHERE ID =@id";
+                cmd.Parameters.Clear();
+                cmd.Parameters.AddWithValue("@id", id);
+                con.Open();
+                SqlDataReader reader = cmd.ExecuteReader();
+                Sanatci sa = new Sanatci();
+                while (reader.Read())
+                {
+                    sa.ID = reader.GetInt32(0);
+                    sa.Isim = reader.GetString(1);
+                    sa.Soyisim = reader.GetString(2);
+                    sa.GrupMu = reader.GetBoolean(3);
+                    sa.Durum = reader.GetBoolean(4);
+                    sa.IsimSoyisim = sa.Isim + " " + sa.Soyisim;
+
+                }
+
+                return sa;
+            }
+            catch
+            {
+
+                return null;
+            }
+            finally
+            {
+                con.Close();
+            }
+        }
+        #endregion
 
     }
 }

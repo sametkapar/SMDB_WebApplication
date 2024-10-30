@@ -15,5 +15,6 @@ namespace DataAccessLayer
         public bool Durum { get; set; }
         public string IsimSoyisim { get; set; }
 
+
     }
 }

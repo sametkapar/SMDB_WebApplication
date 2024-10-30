@@ -82,6 +82,7 @@
     <Content Include="AdminPanel\PlakSirketEkle.aspx" />
     <Content Include="AdminPanel\Resimler\Logo300x300.png" />
     <Content Include="AdminPanel\SanatciEkle.aspx" />
+    <Content Include="AdminPanel\SanatciListele.aspx" />
     <Content Include="AdminPanel\UyeListele.aspx" />
     <Content Include="AdminPanel\Yoneticiler.aspx" />
     <Content Include="MainPage\KullaniciPanel.aspx" />
@@ -179,6 +180,13 @@
     </Compile>
     <Compile Include="AdminPanel\SanatciEkle.aspx.designer.cs">
       <DependentUpon>SanatciEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanel\SanatciListele.aspx.cs">
+      <DependentUpon>SanatciListele.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPanel\SanatciListele.aspx.designer.cs">
+      <DependentUpon>SanatciListele.aspx</DependentUpon>
     </Compile>
     <Compile Include="AdminPanel\UyeListele.aspx.cs">
       <DependentUpon>UyeListele.aspx</DependentUpon>

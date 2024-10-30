@@ -26,8 +26,10 @@
                 <ItemTemplate>
                     <tr>
                         <td><%# Eval("ID") %></td>
-                        <td><%# Eval("Isim") %></td>
-                        <td><%# Eval("SanatciFullIsim") %></td>
+                        <td><%# Eval("Isim") %></td>ü
+                        <td><a href='SanatciListele.aspx?SanatciID=<%# Eval("Sanatci_ID") %>' class="tablobuton sil">
+                            <%# Eval("SanatciFullIsim") %>
+                            </a></td>
                         <td><%# Eval("AlbumIsim") %></td>
                         <td>Puanlama</td>
                         <td>Seçenekler</td>
