@@ -93,6 +93,7 @@ CREATE TABLE Muzik
 	OylanmaSayisi bigint,
 	OrtPuan smallint,
 	Durum bit,
+	Puanlama bit,
 	CONSTRAINT pk_Muzik PRIMARY KEY(ID),
 	CONSTRAINT fk_MuzikAlbum FOREIGN KEY(Album_ID)
 	REFERENCES Album(ID)
@@ -175,8 +176,3 @@ CREATE TABLE UyePlaylist
 	REFERENCES Muzik(ID),
 )
 GO
-
-
-
-
-

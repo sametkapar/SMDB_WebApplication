@@ -24,12 +24,10 @@
                 <asp:TextBox ID="tb_cikisYili" runat="server" CssClass="metinKutu" placeholder="Albüm Çıkış Yılı" TextMode="DateTime"></asp:TextBox>
             </div>
             <div class="satir">
-
                 <label>Sanatçı Seçiniz</label><br />
                 <asp:DropDownList ID="ddl_sanatciSec" runat="server" DataTextField="IsimSoyisim" DataValueField="ID" AppendDataBoundItems="true" CssClass="metinKutu">
                     <asp:ListItem Value="-1" Text="Sanatçı"></asp:ListItem>
                 </asp:DropDownList>
-
                 <label>Plak Şirketi Seçiniz</label><br />
                 <asp:DropDownList ID="ddl_plakSirketSec" runat="server" DataTextField="Isim" DataValueField="ID" AppendDataBoundItems="true" CssClass="metinKutu">
                     <asp:ListItem Value="-1" Text="Şirket"></asp:ListItem>
@@ -46,8 +44,7 @@
                     <asp:LinkButton ID="lbtn_ekle" runat="server" OnClick="lbtn_ekle_Click" CssClass="EkleButon">Albüm Ekle</asp:LinkButton>
                     <div style="clear: both"></div>
                 </div>
-
-               
             </div>
         </div>
+    </div>
 </asp:Content>

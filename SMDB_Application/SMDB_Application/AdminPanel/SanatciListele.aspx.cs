@@ -14,14 +14,25 @@ namespace SMDB_Application.AdminPanel
         protected void Page_Load(object sender, EventArgs e)
 
         {
-            
-                Doldur();
-            
-        }
-        void Doldur()
-        {
-            lv_sanatcilar.DataSource = dm.SanatciGetir();
-            lv_sanatcilar.DataBind();
+            if (Request.QueryString.Count != 0)
+            {
+                if (!IsPostBack)
+                {
+                    int id = Convert.ToInt32(Request.QueryString["SanatciID"]);
+                    lv_albümler.DataSource = dm.AlbumleriGetir(id);
+                    lv_albümler.DataBind();
+                    Album a = dm.AlbumGetir(id);
+                    lbl_albumAdıGetir.Text = a.Isim;
+                    Sanatci s = dm.SanatciGetir(id);
+                    lbl_sanatciAdiGetir.Text = s.IsimSoyisim;
+                }
+            }
+            else
+            {
+                Response.Redirect("MuzikListele.aspx");
+            }
+
+
         }
 
     }

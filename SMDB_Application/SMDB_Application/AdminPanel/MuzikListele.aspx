@@ -13,7 +13,7 @@
                 <LayoutTemplate>
                     <table class="pavlov" cellpadding="0" cellspacing="0">
                         <tr>
-                            <th>ID</th>
+                            <th>Müzik ID</th>
                             <th>İsim</th>
                             <th>Sanatçı</th>
                             <th>Albüm</th>
@@ -26,7 +26,7 @@
                 <ItemTemplate>
                     <tr>
                         <td><%# Eval("ID") %></td>
-                        <td><%# Eval("Isim") %></td>ü
+                        <td><%# Eval("Isim") %></td>
                         <td><a href='SanatciListele.aspx?SanatciID=<%# Eval("Sanatci_ID") %>' class="tablobuton sil">
                             <%# Eval("SanatciFullIsim") %>
                             </a></td>

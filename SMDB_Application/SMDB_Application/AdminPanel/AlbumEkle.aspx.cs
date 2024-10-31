@@ -11,21 +11,22 @@ namespace SMDB_Application.AdminPanel
 {
     public partial class AlbumEkle : System.Web.UI.Page
     {
-        DataModel dm =new DataModel();
+        DataModel dm = new DataModel();
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack) { 
-            ddl_sanatciSec.DataSource = dm.SanatciGetir();
-            ddl_sanatciSec.DataBind();
-            ddl_plakSirketSec.DataSource = dm.PlakSirketGetir();
-            ddl_plakSirketSec.DataBind();
+            if (!IsPostBack)
+            {
+                ddl_sanatciSec.DataSource = dm.SanatcilariGetir();
+                ddl_sanatciSec.DataBind();
+                ddl_plakSirketSec.DataSource = dm.PlakSirketGetir();
+                ddl_plakSirketSec.DataBind();
             }
         }
 
         protected void lbtn_ekle_Click(object sender, EventArgs e)
         {
             Album a = new Album();
-        
+
             a.Sanatci_ID = Convert.ToInt32(ddl_sanatciSec.SelectedItem.Value);
             a.Sirket_ID = Convert.ToInt32(ddl_plakSirketSec.SelectedItem.Value);
             a.CikisYili = Convert.ToDateTime(tb_cikisYili.Text);

@@ -13,6 +13,7 @@ namespace SMDB_Application.AdminPanel
         DataModel dm = new DataModel();
         protected void Page_Load(object sender, EventArgs e)
         {
+           
             Doldur();
         }
       

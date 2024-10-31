@@ -13,11 +13,13 @@ namespace SMDB_Application.AdminPanel
         DataModel dm = new DataModel();
         protected void Page_Load(object sender, EventArgs e)
         {
-
-            ddl_albumSec.DataSource = dm.AlbumGetir();
-            ddl_albumSec.DataBind();
-            ddl_turSec.DataSource = dm.MuzikTurGetir();
-            ddl_turSec.DataBind();
+            if (!IsPostBack)
+            {
+                ddl_albumSec.DataSource = dm.AlbumleriGetir();
+                ddl_albumSec.DataBind();
+                ddl_turSec.DataSource = dm.MuzikTurGetir();
+                ddl_turSec.DataBind();
+            }
         }
 
         protected void lbtn_ekle_Click(object sender, EventArgs e)

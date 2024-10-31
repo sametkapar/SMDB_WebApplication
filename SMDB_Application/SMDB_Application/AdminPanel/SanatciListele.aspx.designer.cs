@@ -15,12 +15,30 @@ namespace SMDB_Application.AdminPanel
     {
 
         /// <summary>
-        /// lv_sanatcilar control.
+        /// lbl_sanatciAdiGetir control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ListView lv_sanatcilar;
+        protected global::System.Web.UI.WebControls.Label lbl_sanatciAdiGetir;
+
+        /// <summary>
+        /// lbl_albumAdıGetir control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbl_albumAdıGetir;
+
+        /// <summary>
+        /// lv_albümler control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ListView lv_albümler;
     }
 }
