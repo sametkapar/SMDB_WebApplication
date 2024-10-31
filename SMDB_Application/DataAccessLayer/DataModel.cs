@@ -630,7 +630,6 @@ namespace DataAccessLayer
                 con.Close();
             }
         }
-
         public List<Sanatci> SanatcilariGetir()
         {
             try
@@ -658,7 +657,6 @@ namespace DataAccessLayer
             catch { return null; }
             finally { con.Close(); }
         }
-
         public Sanatci SanatciGetir(int id)
         {
             try

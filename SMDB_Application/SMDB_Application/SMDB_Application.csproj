@@ -70,6 +70,7 @@
     <Content Include="AdminPanel\AdminLogin.aspx" />
     <Content Include="AdminPanel\AdminPanel.aspx" />
     <Content Include="AdminPanel\AlbumEkle.aspx" />
+    <Content Include="AdminPanel\AlbumListele.aspx" />
     <Content Include="AdminPanel\CSS\AdminPanelStyle.css" />
     <Content Include="AdminPanel\CSS\KatEkleStyle.css" />
     <Content Include="AdminPanel\CSS\LoginPageStyle.css" />
@@ -117,6 +118,13 @@
     </Compile>
     <Compile Include="AdminPanel\AlbumEkle.aspx.designer.cs">
       <DependentUpon>AlbumEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanel\AlbumListele.aspx.cs">
+      <DependentUpon>AlbumListele.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPanel\AlbumListele.aspx.designer.cs">
+      <DependentUpon>AlbumListele.aspx</DependentUpon>
     </Compile>
     <Compile Include="AdminPanel\KategoriDuzenle.aspx.cs">
       <DependentUpon>KategoriDuzenle.aspx</DependentUpon>

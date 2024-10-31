@@ -1,26 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Skapar\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DA363576-4BA1-4977-9E8F-31321F09020E}|SMDB_Application\\SMDB_Application.csproj|c:\\users\\skapar\\documents\\github\\smdb_webapplication\\smdb_application\\smdb_application\\adminpanel\\sanatcilistele.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{DA363576-4BA1-4977-9E8F-31321F09020E}|SMDB_Application\\SMDB_Application.csproj|c:\\users\\user\\documents\\github\\smdb_webapplication\\smdb_application\\smdb_application\\adminpanel\\sanatcilistele.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{DA363576-4BA1-4977-9E8F-31321F09020E}|SMDB_Application\\SMDB_Application.csproj|solutionrelative:smdb_application\\adminpanel\\sanatcilistele.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA363576-4BA1-4977-9E8F-31321F09020E}|SMDB_Application\\SMDB_Application.csproj|c:\\users\\skapar\\documents\\github\\smdb_webapplication\\smdb_application\\smdb_application\\adminpanel\\sanatcilistele.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA363576-4BA1-4977-9E8F-31321F09020E}|SMDB_Application\\SMDB_Application.csproj|solutionrelative:smdb_application\\adminpanel\\sanatcilistele.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C84E86DD-28B8-4B67-870E-6B0130E9CD81}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\skapar\\documents\\github\\smdb_webapplication\\smdb_application\\dataaccesslayer\\datamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C84E86DD-28B8-4B67-870E-6B0130E9CD81}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\datamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA363576-4BA1-4977-9E8F-31321F09020E}|SMDB_Application\\SMDB_Application.csproj|c:\\users\\skapar\\documents\\github\\smdb_webapplication\\smdb_application\\smdb_application\\adminpanel\\muziklistele.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{DA363576-4BA1-4977-9E8F-31321F09020E}|SMDB_Application\\SMDB_Application.csproj|C:\\Users\\user\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\smdb_application\\adminpanel\\muziklistele.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{DA363576-4BA1-4977-9E8F-31321F09020E}|SMDB_Application\\SMDB_Application.csproj|solutionrelative:smdb_application\\adminpanel\\muziklistele.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA363576-4BA1-4977-9E8F-31321F09020E}|SMDB_Application\\SMDB_Application.csproj|c:\\users\\skapar\\documents\\github\\smdb_webapplication\\smdb_application\\smdb_application\\adminpanel\\muziklistele.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA363576-4BA1-4977-9E8F-31321F09020E}|SMDB_Application\\SMDB_Application.csproj|solutionrelative:smdb_application\\adminpanel\\muziklistele.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DA363576-4BA1-4977-9E8F-31321F09020E}|SMDB_Application\\SMDB_Application.csproj|c:\\users\\user\\documents\\github\\smdb_webapplication\\smdb_application\\smdb_application\\adminpanel\\albumlistele.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{DA363576-4BA1-4977-9E8F-31321F09020E}|SMDB_Application\\SMDB_Application.csproj|solutionrelative:smdb_application\\adminpanel\\albumlistele.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84E86DD-28B8-4B67-870E-6B0130E9CD81}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\user\\documents\\github\\smdb_webapplication\\smdb_application\\dataaccesslayer\\datamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84E86DD-28B8-4B67-870E-6B0130E9CD81}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\datamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,41 +26,29 @@
       "DocumentGroups": [
         {
           "DockedWidth": 278,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SanatciListele.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Skapar\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\SMDB_Application\\AdminPanel\\SanatciListele.aspx.cs",
-              "RelativeDocumentMoniker": "SMDB_Application\\AdminPanel\\SanatciListele.aspx.cs",
-              "ToolTip": "C:\\Users\\Skapar\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\SMDB_Application\\AdminPanel\\SanatciListele.aspx.cs",
-              "RelativeToolTip": "SMDB_Application\\AdminPanel\\SanatciListele.aspx.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAmwA0AAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T07:47:37.855Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MuzikListele.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Skapar\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\SMDB_Application\\AdminPanel\\MuzikListele.aspx.cs",
-              "RelativeDocumentMoniker": "SMDB_Application\\AdminPanel\\MuzikListele.aspx.cs",
-              "ToolTip": "C:\\Users\\Skapar\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\SMDB_Application\\AdminPanel\\MuzikListele.aspx.cs",
-              "RelativeToolTip": "SMDB_Application\\AdminPanel\\MuzikListele.aspx.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T08:18:19.766Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "DataModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\DataAccessLayer\\DataModel.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\DataModel.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\DataAccessLayer\\DataModel.cs",
+              "RelativeToolTip": "DataAccessLayer\\DataModel.cs",
+              "ViewState": "AQIAAMkBAAAAAAAAAADwv8gBAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T17:12:16.753Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MuzikListele.aspx",
-              "DocumentMoniker": "C:\\Users\\Skapar\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\SMDB_Application\\AdminPanel\\MuzikListele.aspx",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\SMDB_Application\\AdminPanel\\MuzikListele.aspx",
               "RelativeDocumentMoniker": "SMDB_Application\\AdminPanel\\MuzikListele.aspx",
-              "ToolTip": "C:\\Users\\Skapar\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\SMDB_Application\\AdminPanel\\MuzikListele.aspx",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\SMDB_Application\\AdminPanel\\MuzikListele.aspx",
               "RelativeToolTip": "SMDB_Application\\AdminPanel\\MuzikListele.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -75,9 +59,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "SanatciListele.aspx",
-              "DocumentMoniker": "C:\\Users\\Skapar\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\SMDB_Application\\AdminPanel\\SanatciListele.aspx",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\SMDB_Application\\AdminPanel\\SanatciListele.aspx",
               "RelativeDocumentMoniker": "SMDB_Application\\AdminPanel\\SanatciListele.aspx",
-              "ToolTip": "C:\\Users\\Skapar\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\SMDB_Application\\AdminPanel\\SanatciListele.aspx",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\SMDB_Application\\AdminPanel\\SanatciListele.aspx",
               "RelativeToolTip": "SMDB_Application\\AdminPanel\\SanatciListele.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -87,14 +71,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DataModel.cs",
-              "DocumentMoniker": "C:\\Users\\Skapar\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\DataAccessLayer\\DataModel.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\DataModel.cs",
-              "ToolTip": "C:\\Users\\Skapar\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\DataAccessLayer\\DataModel.cs",
-              "RelativeToolTip": "DataAccessLayer\\DataModel.cs",
-              "ViewState": "AQIAAJMCAAAAAAAAAAAAwKYCAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T07:30:28.042Z",
+              "Title": "AlbumListele.aspx",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\SMDB_Application\\AdminPanel\\AlbumListele.aspx",
+              "RelativeDocumentMoniker": "SMDB_Application\\AdminPanel\\AlbumListele.aspx",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\SMDB_WebApplication\\SMDB_Application\\SMDB_Application\\AdminPanel\\AlbumListele.aspx",
+              "RelativeToolTip": "SMDB_Application\\AdminPanel\\AlbumListele.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-31T17:11:45.077Z",
               "EditorCaption": ""
             }
           ]

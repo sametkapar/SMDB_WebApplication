@@ -30,7 +30,9 @@
                         <td><a href='SanatciListele.aspx?SanatciID=<%# Eval("Sanatci_ID") %>' class="tablobuton sil">
                             <%# Eval("SanatciFullIsim") %>
                             </a></td>
-                        <td><%# Eval("AlbumIsim") %></td>
+                        <td><a href='AlbumListele.aspx?AlbumID=<%# Eval("Album_ID") %>' class="tablobuton düzenle"</a>
+                            <%# Eval("AlbumIsim") %>
+                        </td>
                         <td>Puanlama</td>
                         <td>Seçenekler</td>
                     </tr>
