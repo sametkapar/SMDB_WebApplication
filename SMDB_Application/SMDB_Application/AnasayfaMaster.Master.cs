@@ -5,9 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace SMDB_Application.AdminPanel
+namespace SMDB_Application
 {
-    public partial class AnasayfaDefault : System.Web.UI.Page
+    public partial class AnasayfaMaster : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {

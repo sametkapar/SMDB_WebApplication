@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SMDB_Application.AdminPanel
+namespace SMDB_Application
 {
 
 
-    public partial class AnasayfaDefault
+    public partial class AnasayfaDefaut
     {
     }
 }

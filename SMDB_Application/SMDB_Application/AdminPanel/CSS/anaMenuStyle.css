@@ -1,0 +1,28 @@
+﻿.anaMenu{
+    padding:20px 200px;
+}
+.solMenu {
+    width: 60%;
+    min-height  : 300px;
+    float: left;
+    background-color: azure;
+}
+
+.sagMenu {
+    width: 20%;
+    min-height: 200px;
+    float: right;
+    background-color:brown; 
+}
+.muzik{
+    height:250px;
+    padding: 5px;
+    background-color:black;
+    margin:10px;
+}
+.albumler {
+    height: 250px;
+    padding: 5px;
+    background-color: black;
+    margin: 10px;
+}

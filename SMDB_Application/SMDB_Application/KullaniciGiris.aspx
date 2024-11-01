@@ -1,11 +1,11 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="KullaniciGiris.aspx.cs" Inherits="SMDB_Application.AdminPanel.KullaniciGiris" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="KullaniciGiris.aspx.cs" Inherits="SMDB_Application.KullaniciGiris" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <link href="CSS/LoginPageStyle.css" rel="stylesheet" />
-    <title>Kullanici Giriş</title>
+    <title>Kullanıcı Giriş</title>
+    <link href="AdminPanel/CSS/LoginPageStyle.css" rel="stylesheet" />
 </head>
 <body>
     <form id="form1" runat="server">
@@ -28,7 +28,8 @@
                 </div>
                 <div class="satir" style="text-align: center;">
                     <asp:LinkButton ID="lbtn_giris" runat="server" CssClass="girisButon" OnClick="lbtn_giris_Click">Giriş Yap</asp:LinkButton>
-                </div><br />
+                </div>
+                <br />
                 <div class="satir" style="text-align: center;">
                     <a href="UyeOl.aspx" class="girisButon">Uye Ol</a>
                 </div>

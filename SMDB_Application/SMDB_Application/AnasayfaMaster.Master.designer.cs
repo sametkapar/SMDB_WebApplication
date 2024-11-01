@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SMDB_Application.AdminPanel
+namespace SMDB_Application
 {
 
 
-    public partial class AnaSayfaMaster
+    public partial class AnasayfaMaster
     {
 
         /// <summary>

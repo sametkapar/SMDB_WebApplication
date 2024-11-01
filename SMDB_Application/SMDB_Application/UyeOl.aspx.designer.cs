@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SMDB_Application.AdminPanel
+namespace SMDB_Application
 {
 
 
-    public partial class KullaniciGiris
+    public partial class UyeOl
     {
 
         /// <summary>
@@ -42,6 +42,33 @@ namespace SMDB_Application.AdminPanel
         protected global::System.Web.UI.WebControls.Label lbl_hatametin;
 
         /// <summary>
+        /// pnl_basarili control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel pnl_basarili;
+
+        /// <summary>
+        /// tb_isim control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox tb_isim;
+
+        /// <summary>
+        /// tb_soyisim control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox tb_soyisim;
+
+        /// <summary>
         /// tb_username control.
         /// </summary>
         /// <remarks>
@@ -49,6 +76,15 @@ namespace SMDB_Application.AdminPanel
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox tb_username;
+
+        /// <summary>
+        /// tb_mail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox tb_mail;
 
         /// <summary>
         /// tb_sifre control.
@@ -60,12 +96,12 @@ namespace SMDB_Application.AdminPanel
         protected global::System.Web.UI.WebControls.TextBox tb_sifre;
 
         /// <summary>
-        /// lbtn_giris control.
+        /// lbtn_kaydet control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton lbtn_giris;
+        protected global::System.Web.UI.WebControls.LinkButton lbtn_kaydet;
     }
 }

@@ -6,7 +6,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace SMDB_Application.AdminPanel
+namespace SMDB_Application
 {
     public partial class UyeOl : System.Web.UI.Page
     {
