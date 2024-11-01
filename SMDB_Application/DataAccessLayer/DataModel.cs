@@ -291,6 +291,33 @@ namespace DataAccessLayer
             }
         }
 
+        public bool KullaniciKaydet(Kullanici k)
+        {
+            try
+            {
+                cmd.CommandText = "INSERT INTO Kullanici (Isim, Soyisim, Mail, KullaniciAdi, Sifre, AktifMi, Durum) VALUES (@isim, @soyisim, @mail, @kullaniciAdi, @sifre, @aktifMi, @durum)";
+                cmd.Parameters.Clear();
+                cmd.Parameters.AddWithValue("@isim", k.Isim);
+                cmd.Parameters.AddWithValue("@soyisim", k.Soyisim);
+                cmd.Parameters.AddWithValue("@mail", k.Mail);
+                cmd.Parameters.AddWithValue("@kullaniciAdi", k.KullaniciAdi);
+                cmd.Parameters.AddWithValue("@sifre", k.Sifre);
+                cmd.Parameters.AddWithValue("@aktifMi", k.AktifMi);
+                cmd.Parameters.AddWithValue("@durum", k.Durum);
+                con.Open();
+                cmd.ExecuteNonQuery();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+            finally
+            {
+                con.Close();
+            }
+        }
+
         #endregion
 
         #region Moderatör Metotları

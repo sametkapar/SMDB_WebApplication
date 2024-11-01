@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="KullaniciMaster.master.cs" Inherits="SMDB_Application.AdminPanel.KullaniciMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link href="../AdminPanel/CSS/AdminPanelStyle.css" rel="stylesheet" />
+    <title>Kullanıcı ekranı ana sayfası</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div class="ustMenu">
+                <div class="logoYeri">
+                </div>
+                <h2>SMDB Kullanıcı Paneli</h2>
+                <div class="bilgiYeri">
+                    <asp:LinkButton ID="lbtn_cikis" runat="server" OnClick="lbtn_cikis_Click" Text="Güvenli Çıkış" CssClass="cikis_link"></asp:LinkButton>
+                    <asp:Label ID="lbl_kullanici" runat="server" Text="KULLANICI ADI"></asp:Label>
+                </div>
+                <div style="clear: both"></div>
+            </div>
+            <div class="solMenu">
+                <a href="Yorumlarim.aspx">Yorumlarım</a>
+                <a href="#">Müzik Listem</a>
+                <a href="#">Şifre Değiştir</a>
+            </div>
+            <div class="mainPanel">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

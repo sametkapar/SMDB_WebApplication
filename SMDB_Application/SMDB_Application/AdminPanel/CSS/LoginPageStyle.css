@@ -11,8 +11,8 @@ body {
 
 .main {
     width: 300px;
-    margin: 270px auto;
     color: white;
+    margin: 270px auto;
     border: 3px solid #002333;
     border-radius: 3px;
     background-color: #8FC1B5;
@@ -29,6 +29,7 @@ body {
 
 .logoAlani {
     margin-left: 100px;
+
 }
 
     .logoAlani img {
@@ -103,4 +104,7 @@ body {
     background-color: #632323;
     border-radius: 7px;
     margin: 5px 0px;
+}
+.basarili {
+    background-color:forestgreen;
 }

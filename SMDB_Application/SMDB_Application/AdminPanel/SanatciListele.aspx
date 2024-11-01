@@ -14,7 +14,7 @@
         </div>
         <div class="panelIci">
             <div class="panelBaslik">
-                <asp:Label ID="lbl_albumAdıGetir" runat="server" Text=""></asp:Label>
+                <h4>Albümler</h4>
             </div>
             <div>
                 <asp:ListView ID="lv_albümler" runat="server">

@@ -1,0 +1,37 @@
+﻿*, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Calibri;
+    background-color: #DEEFE7;
+    color:white;
+}
+.ustMenu {
+    height: 75px;
+    background: rgb(0,35,51);
+    background: linear-gradient(90deg, rgba(0,35,51,1) 0%, rgba(222,239,231,1) 100%);
+    border-bottom: 1px solid black;
+}
+.anasayfaYeri {
+    padding: 25px;
+    float: left;
+    width: 100px;
+}
+    .anasayfaYeri a {
+        color: white;
+        text-decoration: none;
+        font-size: 16pt;
+        font-weight: 900;
+    }
+.profilYeri {
+    float: right;
+    padding: 25px
+    
+}
+.profilYeri a{
+    color:white;
+    text-decoration:none;
+    font-size:16pt;
+    font-weight:900;
+}

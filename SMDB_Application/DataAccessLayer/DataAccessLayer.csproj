@@ -45,6 +45,7 @@
     <Compile Include="ConnectionStrings.cs" />
     <Compile Include="DataModel.cs" />
     <Compile Include="Kategori.cs" />
+    <Compile Include="Kullanici.cs" />
     <Compile Include="Muzik.cs" />
     <Compile Include="MuzikTur.cs" />
     <Compile Include="PlakSirket.cs" />

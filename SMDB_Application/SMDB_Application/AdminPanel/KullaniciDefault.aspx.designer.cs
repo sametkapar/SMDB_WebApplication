@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SMDB_Application.MainPage
+namespace SMDB_Application.AdminPanel
 {
 
 
-    public partial class Yorumlarim
+    public partial class KullaniciDefault
     {
     }
 }
